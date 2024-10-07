@@ -1,0 +1,341 @@
+.close {
+  position: relative;
+}
+.materialSymbolscloseIcon {
+  height: 24px;
+  width: 24px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  min-height: 24px;
+}
+.closeParent {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 0 0 var(--padding-xl);
+  gap: var(--gap-3xs);
+}
+.signIn {
+  margin: 0;
+  font-size: inherit;
+  line-height: 48px;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-family: inherit;
+}
+.notAMember,
+.registerNow,
+.signIn {
+  position: relative;
+}
+.registerNow {
+  color: var(--orange-bg-font-color);
+}
+.notAMemberParent,
+.signInParent {
+  display: flex;
+  justify-content: flex-start;
+}
+.notAMemberParent {
+  flex-direction: row;
+  align-items: flex-start;
+  gap: var(--gap-smi);
+  text-align: left;
+  font-size: var(--font-size-xl);
+  color: var(--gray-font-color);
+}
+.signInParent {
+  flex-direction: column;
+  align-items: center;
+  gap: var(--gap-xl);
+}
+.icon,
+.password {
+  position: relative;
+}
+.password {
+  flex: 1;
+  font-size: var(--font-size-lg);
+  text-decoration: underline;
+  font-weight: 500;
+  font-family: var(--font-roboto);
+  color: var(--gray-font-color);
+  text-align: left;
+  display: inline-block;
+  max-width: 100%;
+  white-space: nowrap;
+}
+.icon {
+  height: 25px;
+  width: 25px;
+  overflow: hidden;
+  flex-shrink: 0;
+  display: none;
+}
+.forgotPasswordLink,
+.passwordInput {
+  align-self: stretch;
+  max-width: 100%;
+  flex-shrink: 0;
+}
+.passwordInput {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: var(--padding-12xs) var(--padding-17xl) var(--padding-10xs) 0;
+  box-sizing: border-box;
+  gap: var(--gap-346xl);
+}
+.forgotPasswordLink {
+  position: relative;
+  overflow: hidden;
+  max-height: 100%;
+}
+.passwordInputParent {
+  align-self: stretch;
+  height: 41px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 0 var(--padding-12xs);
+  box-sizing: border-box;
+  gap: var(--gap-mini);
+  max-width: 100%;
+}
+.password1 {
+  flex: 1;
+  position: relative;
+  font-size: var(--font-size-lg);
+  font-weight: 500;
+  font-family: var(--font-roboto);
+  color: var(--gray-font-color);
+  text-align: left;
+  display: inline-block;
+  max-width: calc(100% - 36px);
+}
+.icon1 {
+  height: 25px;
+  width: 25px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.passwordParent {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-2xs);
+  flex-shrink: 0;
+}
+.frameGroup,
+.instanceChild,
+.passwordParent {
+  align-self: stretch;
+  max-width: 100%;
+}
+.instanceChild {
+  position: relative;
+  overflow: hidden;
+  max-height: 100%;
+  flex-shrink: 0;
+}
+.frameGroup {
+  height: 41px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 0 var(--padding-12xs);
+  box-sizing: border-box;
+  gap: var(--gap-mini);
+}
+.footerFrame {
+  height: 24px;
+  width: 24px;
+  position: relative;
+  border-radius: var(--br-8xs);
+  background-color: var(--color-whitesmoke-100);
+  border: 1px solid var(--gray-font-color);
+  box-sizing: border-box;
+}
+.password2 {
+  position: relative;
+  font-size: var(--font-size-lg);
+  font-weight: 500;
+  font-family: var(--font-roboto);
+  color: var(--gray-font-color);
+  text-align: left;
+}
+.aTASigninText,
+.checkBox {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: flex-start;
+  gap: var(--gap-xl);
+}
+.aTASigninText {
+  align-self: stretch;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: var(--gap-10xl);
+  max-width: 100%;
+}
+.frameChild {
+  height: 50px;
+  width: 487px;
+  position: relative;
+  border-radius: var(--br-31xl);
+  background-color: var(--blue-font-color);
+  display: none;
+  max-width: 100%;
+}
+.signIn1 {
+  position: relative;
+  font-size: var(--font-size-xl);
+  font-family: var(--font-roboto);
+  color: var(--color-white);
+  text-align: left;
+  z-index: 1;
+}
+.rectangleParent {
+  align-self: stretch;
+  border-radius: var(--br-31xl);
+  background-color: var(--blue-font-color);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-smi) var(--padding-smi) var(--padding-sm);
+  box-sizing: border-box;
+  max-width: 100%;
+  white-space: nowrap;
+}
+.forgotPassword {
+  position: relative;
+  font-size: var(--font-size-xl);
+  font-family: var(--font-roboto);
+  color: var(--orange-bg-font-color);
+  text-align: center;
+}
+.backgroundRectangle,
+.contentFrame {
+  align-self: stretch;
+  flex-direction: column;
+}
+.backgroundRectangle {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-sm);
+  max-width: 100%;
+}
+.contentFrame {
+  margin: 0;
+  align-items: flex-start;
+  padding: 0 0 var(--padding-2xs);
+  box-sizing: border-box;
+  gap: var(--gap-31xl);
+}
+.contentFrame,
+.registerButtonLabel,
+.registerButtonLabelWrapper {
+  display: flex;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.registerButtonLabel {
+  width: 487px;
+  flex-direction: column;
+  align-items: center;
+  gap: var(--gap-40xl);
+}
+.registerButtonLabelWrapper {
+  align-self: stretch;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0 0 var(--padding-2xs) 0;
+  box-sizing: border-box;
+  text-align: center;
+  font-size: var(--font-size-21xl);
+}
+.copyright2022 {
+  position: relative;
+}
+.copyright2022FixMyBuild {
+  width: 286px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-end;
+}
+.bottomFrame {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 0 var(--padding-44xl) 0 var(--padding-xl);
+  text-align: right;
+  font-size: var(--font-size-2xs);
+  color: var(--color-dimgray-100);
+}
+.frameParent {
+  width: 551px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+  padding: 0 var(--padding-xl) 0 0;
+  box-sizing: border-box;
+  gap: var(--gap-94xl);
+  max-width: 100%;
+  text-align: left;
+  font-size: var(--font-size-xl);
+  color: var(--blue-font-color);
+  font-family: var(--font-roboto);
+}
+@media screen and (max-width: 1000px) {
+  .signIn {
+    font-size: var(--font-size-13xl);
+    line-height: 38px;
+  }
+  .passwordInput {
+    gap: var(--gap-346xl);
+  }
+  .contentFrame {
+    gap: var(--gap-31xl);
+  }
+  .registerButtonLabel {
+    gap: var(--gap-40xl);
+  }
+  .frameParent {
+    gap: var(--gap-94xl);
+  }
+}
+@media screen and (max-width: 450px) {
+  .close {
+    font-size: var(--semi-bold-size);
+  }
+  .signIn {
+    font-size: var(--font-size-5xl);
+    line-height: 29px;
+  }
+  .forgotPassword,
+  .notAMember,
+  .registerNow {
+    font-size: var(--semi-bold-size);
+  }
+  .bottomFrame {
+    padding-right: var(--padding-xl);
+    box-sizing: border-box;
+  }
+  .frameParent {
+    gap: var(--gap-94xl);
+  }
+}

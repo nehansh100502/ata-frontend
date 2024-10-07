@@ -1,0 +1,731 @@
+.vivekCardChild {
+  height: 221.7px;
+  width: 397.3px;
+  position: relative;
+  border-radius: var(--br-3xs);
+  background-color: var(--color-lightgray-100);
+  box-shadow: 0 1px 10px rgba(0, 0, 0, 0.15);
+  border: 2px solid var(--border);
+  box-sizing: border-box;
+  display: none;
+  max-width: 100%;
+}
+.maskGroupIcon {
+  height: 162.8px;
+  width: 162.8px;
+  position: relative;
+  object-fit: contain;
+  z-index: 1;
+}
+.ratingChild,
+.starIcon {
+  position: relative;
+  border-radius: var(--br-xl);
+  z-index: 1;
+}
+.ratingChild {
+  height: 27.2px;
+  width: 65.5px;
+  background-color: var(--color-white);
+  box-shadow: 1px 1px 8px rgba(0, 0, 0, 0.15);
+  display: none;
+}
+.starIcon {
+  height: 16.8px;
+  width: 18.7px;
+}
+.counselingGroup {
+  position: relative;
+  font-weight: 500;
+  z-index: 1;
+  margin-left: -4px;
+}
+.maskGroupParent,
+.rating {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.rating {
+  margin: 0 !important;
+  position: absolute;
+  bottom: -14.2px;
+  left: calc(50% - 32.5px);
+  border-radius: var(--br-xl);
+  background-color: var(--color-white);
+  box-shadow: 1px 1px 8px rgba(0, 0, 0, 0.15);
+  padding: var(--padding-9xs) var(--padding-4xs) var(--padding-8xs)
+    var(--padding-sm);
+  z-index: 2;
+}
+.maskGroupParent {
+  position: relative;
+  min-width: 163px;
+  flex-shrink: 0;
+}
+.andreaw {
+  position: relative;
+  font-size: var(--semi-bold-size);
+  z-index: 1;
+}
+.footballVolleyball {
+  align-self: stretch;
+  flex: 1;
+}
+.englishHindi,
+.footballVolleyball,
+.free {
+  position: relative;
+  z-index: 1;
+}
+.englishHindi {
+  align-self: stretch;
+  flex: 1;
+  color: var(--color-gray-800);
+}
+.free {
+  font-size: var(--font-size-smi);
+  font-weight: 600;
+  color: var(--color-green-200);
+}
+.privateFrame,
+.secureFrame {
+  align-self: stretch;
+  flex: 1;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.privateFrame {
+  flex-direction: column;
+  gap: var(--gap-8xs);
+}
+.secureFrame {
+  flex-direction: row;
+  padding: 0 var(--padding-lgi) 0 var(--padding-sm);
+}
+.connectChild {
+  height: 32.6px;
+  width: 88.4px;
+  position: relative;
+  border-radius: var(--br-6xl);
+  border: 2px solid var(--color-green-100);
+  box-sizing: border-box;
+  display: none;
+}
+.callNow {
+  position: relative;
+  font-weight: 500;
+  z-index: 1;
+}
+.connect,
+.connectItem {
+  border-radius: var(--br-6xl);
+}
+.connect {
+  border: 2px solid var(--color-green-100);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-end;
+  padding: var(--padding-5xs) var(--padding-5xs) var(--padding-6xs)
+    var(--padding-smi);
+  z-index: 1;
+}
+.connectItem {
+  height: 32.6px;
+  width: 88.4px;
+  position: relative;
+  border: 2px solid var(--color-darkorange-200);
+  box-sizing: border-box;
+  display: none;
+}
+.chatNow {
+  position: relative;
+  font-weight: 500;
+  z-index: 1;
+}
+.connect1,
+.connectParent {
+  display: flex;
+  flex-direction: row;
+}
+.connect1 {
+  border-radius: var(--br-6xl);
+  border: 2px solid var(--color-darkorange-200);
+  align-items: center;
+  justify-content: flex-end;
+  padding: var(--padding-5xs) var(--padding-9xs) var(--padding-6xs)
+    var(--padding-2xs);
+  z-index: 1;
+  text-align: center;
+}
+.connectParent {
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-4xs);
+  font-size: var(--font-size-mini);
+  font-family: var(--font-roboto);
+}
+.contactFrame,
+.contactFrameWrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.contactFrame {
+  align-self: stretch;
+  height: 147px;
+  align-items: center;
+  gap: var(--gap-xl);
+}
+.contactFrameWrapper {
+  flex: 1;
+  align-items: flex-start;
+  padding: var(--padding-9xs) 0 0;
+  box-sizing: border-box;
+  min-width: 121px;
+  flex-shrink: 0;
+  text-align: left;
+  font-size: var(--reg-size);
+  color: var(--color-black);
+  font-family: var(--font-raleway);
+}
+.vivekCard,
+.vivekCardItem {
+  border-radius: var(--br-3xs);
+  background-color: var(--color-lightgray-100);
+  box-shadow: 0 1px 10px rgba(0, 0, 0, 0.15);
+  border: 2px solid var(--border);
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.vivekCard {
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: var(--padding-5xl) var(--padding-mid) var(--padding-16xl)
+    var(--padding-4xl);
+  gap: var(--gap-5xs);
+  min-width: 298px;
+}
+.vivekCardItem {
+  height: 221.7px;
+  width: 397.3px;
+  position: relative;
+  display: none;
+}
+.maskGroupIcon1 {
+  height: 162.8px;
+  width: 162.8px;
+  position: relative;
+  object-fit: contain;
+  z-index: 1;
+}
+.ratingItem {
+  height: 27.2px;
+  width: 65.5px;
+  border-radius: var(--br-xl);
+  background-color: var(--color-white);
+  box-shadow: 1px 1px 8px rgba(0, 0, 0, 0.15);
+  display: none;
+}
+.div,
+.ratingItem,
+.starIcon1 {
+  position: relative;
+  z-index: 1;
+}
+.starIcon1 {
+  height: 16.8px;
+  width: 18.7px;
+  border-radius: var(--br-xl);
+}
+.div {
+  font-weight: 500;
+  margin-left: -4px;
+}
+.maskGroupGroup,
+.rating1 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.rating1 {
+  margin: 0 !important;
+  position: absolute;
+  bottom: -14.2px;
+  left: calc(50% - 32.5px);
+  border-radius: var(--br-xl);
+  background-color: var(--color-white);
+  box-shadow: 1px 1px 8px rgba(0, 0, 0, 0.15);
+  padding: var(--padding-9xs) var(--padding-4xs) var(--padding-8xs)
+    var(--padding-sm);
+  z-index: 2;
+}
+.maskGroupGroup {
+  position: relative;
+  min-width: 163px;
+  flex-shrink: 0;
+}
+.andreaw1 {
+  position: relative;
+  z-index: 1;
+}
+.andreawWrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-sm);
+}
+.englishTelegu,
+.football {
+  position: relative;
+  z-index: 1;
+}
+.football {
+  height: 20px;
+  display: inline-block;
+  flex-shrink: 0;
+}
+.englishTelegu {
+  align-self: stretch;
+  flex: 1;
+}
+.vijayFootballIcon {
+  height: 11px;
+  width: 8px;
+}
+.min,
+.vijayFootballIcon {
+  position: relative;
+  z-index: 1;
+}
+.groupWithText,
+.parentContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.groupWithText {
+  align-items: flex-end;
+  gap: var(--gap-10xs);
+}
+.parentContainer {
+  align-items: flex-start;
+  padding: 0 var(--padding-8xs);
+  font-size: var(--font-size-smi);
+  color: var(--color-darkorange-200);
+  font-family: var(--font-roboto);
+}
+.englishTeleguParent {
+  align-self: stretch;
+  flex-direction: column;
+  gap: var(--gap-6xs);
+  color: var(--color-gray-800);
+}
+.englishTeleguParent,
+.footballParent,
+.frameWrapper {
+  flex: 1;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.footballParent {
+  align-self: stretch;
+  flex-direction: column;
+  gap: var(--gap-10xs);
+}
+.frameWrapper {
+  width: 181px;
+  flex-direction: row;
+  padding: 0 var(--padding-sm) var(--padding-smi);
+  box-sizing: border-box;
+  font-size: var(--reg-size);
+}
+.connectInner {
+  height: 32.6px;
+  width: 88.4px;
+  position: relative;
+  border-radius: var(--br-6xl);
+  border: 2px solid var(--color-green-100);
+  box-sizing: border-box;
+  display: none;
+}
+.callNow1 {
+  position: relative;
+  font-weight: 500;
+  z-index: 1;
+}
+.connect2,
+.rectangleDiv {
+  border-radius: var(--br-6xl);
+}
+.connect2 {
+  border: 2px solid var(--color-green-100);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-end;
+  padding: var(--padding-5xs) var(--padding-5xs) var(--padding-6xs)
+    var(--padding-smi);
+  z-index: 1;
+}
+.rectangleDiv {
+  height: 32.6px;
+  width: 88.4px;
+  position: relative;
+  border: 2px solid var(--color-darkorange-200);
+  box-sizing: border-box;
+  display: none;
+}
+.chatNow1 {
+  position: relative;
+  font-weight: 500;
+  z-index: 1;
+}
+.connect3 {
+  border-radius: var(--br-6xl);
+  border: 2px solid var(--color-darkorange-200);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-5xs) var(--padding-7xs) var(--padding-6xs)
+    var(--padding-3xs);
+  z-index: 1;
+  text-align: center;
+}
+.frameParent,
+.privateCoaches,
+.vivekCardInner {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.privateCoaches {
+  flex-direction: row;
+  gap: var(--gap-4xs);
+  font-size: var(--font-size-mini);
+  font-family: var(--font-roboto);
+}
+.frameParent,
+.vivekCardInner {
+  flex-direction: column;
+}
+.frameParent {
+  align-self: stretch;
+  height: 147px;
+  gap: var(--gap-6xs);
+}
+.vivekCardInner {
+  flex: 1;
+  padding: var(--padding-9xs) 0 0;
+  box-sizing: border-box;
+  min-width: 121px;
+  flex-shrink: 0;
+  text-align: left;
+  color: var(--color-black);
+  font-family: var(--font-raleway);
+}
+.vivekCard1,
+.vivekCardChild1 {
+  border-radius: var(--br-3xs);
+  background-color: var(--color-lightgray-100);
+  box-shadow: 0 1px 10px rgba(0, 0, 0, 0.15);
+  border: 2px solid var(--border);
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.vivekCard1 {
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: var(--padding-5xl) var(--padding-mid) var(--padding-16xl)
+    var(--padding-4xl);
+  gap: var(--gap-5xs);
+  min-width: 298px;
+}
+.vivekCardChild1 {
+  height: 221.7px;
+  width: 397.3px;
+  position: relative;
+  display: none;
+}
+.maskGroupIcon2 {
+  height: 162.8px;
+  width: 162.8px;
+  position: relative;
+  object-fit: contain;
+  z-index: 1;
+}
+.ratingInner {
+  height: 27.2px;
+  width: 65.5px;
+  border-radius: var(--br-xl);
+  background-color: var(--color-white);
+  box-shadow: 1px 1px 8px rgba(0, 0, 0, 0.15);
+  display: none;
+}
+.div1,
+.ratingInner,
+.starIcon2 {
+  position: relative;
+  z-index: 1;
+}
+.starIcon2 {
+  height: 16.8px;
+  width: 18.7px;
+  border-radius: var(--br-xl);
+}
+.div1 {
+  font-weight: 500;
+  margin-left: -4px;
+}
+.maskGroupContainer,
+.rating2 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.rating2 {
+  margin: 0 !important;
+  position: absolute;
+  bottom: -14.2px;
+  left: calc(50% - 32.5px);
+  border-radius: var(--br-xl);
+  background-color: var(--color-white);
+  box-shadow: 1px 1px 8px rgba(0, 0, 0, 0.15);
+  padding: var(--padding-9xs) var(--padding-4xs) var(--padding-8xs)
+    var(--padding-sm);
+  z-index: 2;
+}
+.maskGroupContainer {
+  position: relative;
+  min-width: 163px;
+  flex-shrink: 0;
+}
+.andreaw2 {
+  position: relative;
+  z-index: 1;
+}
+.andreawContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-sm);
+}
+.englishHindi1,
+.footballCricket {
+  align-self: stretch;
+  position: relative;
+  z-index: 1;
+}
+.footballCricket {
+  height: 20.5px;
+  display: inline-block;
+  flex-shrink: 0;
+}
+.englishHindi1 {
+  flex: 1;
+  color: var(--color-gray-800);
+}
+.frameProductsIcon {
+  height: 11px;
+  width: 8px;
+}
+.frameProductsIcon,
+.min1 {
+  position: relative;
+  z-index: 1;
+}
+.productCoaches {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: flex-start;
+  gap: var(--gap-10xs);
+}
+.athletesAcademy,
+.footballCricketParent,
+.frameContainer {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.athletesAcademy {
+  flex-direction: row;
+  padding: 0 var(--padding-8xs);
+  font-size: var(--font-size-smi);
+  color: var(--color-darkorange-200);
+  font-family: var(--font-roboto);
+}
+.footballCricketParent,
+.frameContainer {
+  flex: 1;
+}
+.footballCricketParent {
+  align-self: stretch;
+  flex-direction: column;
+  gap: var(--gap-8xs);
+}
+.frameContainer {
+  width: 181px;
+  flex-direction: row;
+  padding: 0 var(--padding-sm) var(--padding-smi);
+  box-sizing: border-box;
+  font-size: var(--reg-size);
+}
+.connectChild1 {
+  height: 32.6px;
+  width: 88.4px;
+  position: relative;
+  border-radius: var(--br-6xl);
+  border: 2px solid var(--color-green-100);
+  box-sizing: border-box;
+  display: none;
+}
+.callNow2 {
+  position: relative;
+  font-weight: 500;
+  z-index: 1;
+}
+.connect4,
+.connectChild2 {
+  border-radius: var(--br-6xl);
+}
+.connect4 {
+  border: 2px solid var(--color-green-100);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-end;
+  padding: var(--padding-5xs) var(--padding-5xs) var(--padding-6xs)
+    var(--padding-smi);
+  z-index: 1;
+}
+.connectChild2 {
+  height: 32.6px;
+  width: 88.4px;
+  position: relative;
+  border: 2px solid var(--color-darkorange-200);
+  box-sizing: border-box;
+  display: none;
+}
+.chatNow2 {
+  position: relative;
+  font-weight: 500;
+  z-index: 1;
+}
+.connect5 {
+  border-radius: var(--br-6xl);
+  border: 2px solid var(--color-darkorange-200);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-5xs) var(--padding-7xs) var(--padding-6xs)
+    var(--padding-3xs);
+  z-index: 1;
+  text-align: center;
+}
+.connectGroup,
+.frameGroup {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.connectGroup {
+  flex-direction: row;
+  gap: var(--gap-4xs);
+  font-size: var(--font-size-mini);
+  font-family: var(--font-roboto);
+}
+.frameGroup {
+  align-self: stretch;
+  height: 147px;
+  flex-direction: column;
+  gap: var(--gap-6xs);
+}
+.athleteGroup,
+.frameDiv,
+.vivekCard2 {
+  flex: 1;
+  display: flex;
+  justify-content: flex-start;
+}
+.frameDiv {
+  flex-direction: column;
+  align-items: flex-start;
+  padding: var(--padding-9xs) 0 0;
+  box-sizing: border-box;
+  min-width: 121px;
+  flex-shrink: 0;
+  text-align: left;
+  color: var(--color-black);
+  font-family: var(--font-raleway);
+}
+.athleteGroup,
+.vivekCard2 {
+  flex-direction: row;
+  max-width: 100%;
+}
+.vivekCard2 {
+  border-radius: var(--br-3xs);
+  background-color: var(--color-lightgray-100);
+  box-shadow: 0 1px 10px rgba(0, 0, 0, 0.15);
+  border: 2px solid var(--border);
+  box-sizing: border-box;
+  align-items: center;
+  padding: var(--padding-5xl) var(--padding-mid) var(--padding-16xl)
+    var(--padding-4xl);
+  gap: var(--gap-5xs);
+  min-width: 298px;
+}
+.athleteGroup {
+  flex-wrap: wrap;
+  align-items: flex-start;
+  gap: var(--gap-15xl);
+  text-align: center;
+  font-size: var(--semi-bold-size);
+  color: var(--color-gray-400);
+  font-family: var(--reg);
+}
+@media screen and (max-width: 900px) {
+  .athleteGroup {
+    gap: var(--gap-15xl);
+  }
+}
+@media screen and (max-width: 450px) {
+  .maskGroupIcon,
+  .maskGroupParent {
+    flex: 1;
+  }
+  .vivekCard {
+    flex-wrap: wrap;
+  }
+  .maskGroupGroup,
+  .maskGroupIcon1 {
+    flex: 1;
+  }
+  .vivekCard1 {
+    flex-wrap: wrap;
+  }
+  .maskGroupContainer,
+  .maskGroupIcon2 {
+    flex: 1;
+  }
+  .vivekCard2 {
+    flex-wrap: wrap;
+  }
+}

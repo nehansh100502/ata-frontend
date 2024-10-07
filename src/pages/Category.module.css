@@ -1,0 +1,847 @@
+.categoryChild {
+  align-self: stretch;
+  height: 1080px;
+  position: relative;
+  background-color: var(--color-steelblue-300);
+  display: none;
+}
+.basketball,
+.maskGroupIcon,
+.maskGroupIcon1 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+.basketball {
+  top: 8px;
+  left: 13px;
+  font-weight: 500;
+  display: inline-block;
+  width: 167px;
+  height: 25px;
+}
+.maskGroupParent {
+  width: 197px;
+  height: 45px;
+  position: relative;
+  filter: drop-shadow(2px 2px 2px rgba(0, 0, 0, 0.25));
+  display: none;
+}
+.searchChild {
+  height: 47px;
+  width: 1221px;
+  position: relative;
+  border-radius: var(--br-83xl);
+  background-color: var(--color-gainsboro-300);
+  border: 1px solid var(--color-gray-500);
+  box-sizing: border-box;
+  display: none;
+  max-width: 100%;
+}
+.buttonGroupIcon {
+  height: 21px;
+  width: 21px;
+  position: relative;
+  min-height: 21px;
+  z-index: 1;
+}
+.nameSportsCategory {
+  flex: 1;
+  position: relative;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  z-index: 1;
+}
+.flexContainer {
+  width: 210px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: flex-start;
+  gap: var(--gap-5xl);
+}
+.listItemIcon {
+  height: 24px;
+  width: 19px;
+  position: relative;
+  z-index: 1;
+}
+.search {
+  align-self: stretch;
+  height: 47px;
+  border-radius: var(--br-83xl);
+  background-color: var(--color-gainsboro-300);
+  border: 1px solid var(--color-gray-500);
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  padding: var(--padding-xs) var(--padding-8xl) var(--padding-4xs);
+  gap: var(--gap-xl);
+  max-width: 100%;
+}
+.frameChild {
+  height: 49px;
+  width: 269px;
+  position: relative;
+  border-radius: var(--br-5xl);
+  background-color: var(--color-gainsboro-200);
+  display: none;
+}
+.popularNow {
+  flex: 1;
+  position: relative;
+  z-index: 1;
+}
+.rectangleParent {
+  width: 269px;
+  border-radius: var(--br-5xl);
+  background-color: var(--color-gainsboro-200);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: var(--padding-smi) var(--padding-35xl) var(--padding-smi)
+    var(--padding-3xl);
+  box-sizing: border-box;
+  white-space: nowrap;
+}
+.lineSeparatorChild {
+  height: 34px;
+  width: 41px;
+  position: relative;
+}
+.lineSeparator {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+  font-size: var(--font-size-xl);
+  color: #292929;
+}
+.backgroundImage {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 1221px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-lgi);
+  max-width: 100%;
+  text-align: left;
+  font-size: var(--font-size-mini);
+  color: var(--color-gray-800);
+  font-family: var(--reg);
+}
+.circleShapeChild {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: var(--br-7xl);
+  background-color: var(--color-gainsboro-400);
+  border: 6px solid var(--border);
+  box-sizing: border-box;
+  width: 100%;
+  height: 100%;
+  display: none;
+}
+.footballCardIcon {
+  align-self: stretch;
+  height: 368px;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  flex-shrink: 0;
+  object-fit: cover;
+  cursor: pointer;
+  z-index: 1;
+}
+.maskGroupIcon2 {
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.horizontalRule,
+.maskGroupIcon2,
+.maskGroupIcon3 {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+.maskGroupIcon3 {
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  z-index: 1;
+}
+.horizontalRule {
+  margin: 0 !important;
+}
+.football {
+  flex: 1;
+  position: relative;
+  font-weight: 500;
+  z-index: 2;
+}
+.horizontalRuleParent {
+  width: 197px;
+  filter: drop-shadow(2px 2px 2px rgba(0, 0, 0, 0.25));
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-5xs) var(--padding-mid) var(--padding-xs)
+    var(--padding-smi);
+  box-sizing: border-box;
+  position: relative;
+  z-index: 2;
+  margin-top: -368px;
+}
+.group {
+  position: absolute;
+  top: 36px;
+  left: 34px;
+  width: 368px;
+  height: 368px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.tennisCardIcon {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  margin: 0 !important;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  object-fit: cover;
+  z-index: 1;
+}
+.maskGroupIcon4,
+.tennisCardIcon {
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.maskGroupGroup,
+.maskGroupIcon4,
+.maskGroupIcon5 {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+.maskGroupIcon5 {
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  z-index: 1;
+}
+.maskGroupGroup {
+  margin: 0 !important;
+}
+.tennis {
+  flex: 1;
+  position: relative;
+  font-weight: 500;
+  z-index: 2;
+}
+.frameParent,
+.group1 {
+  display: flex;
+  flex-direction: row;
+  box-sizing: border-box;
+}
+.frameParent {
+  width: 197px;
+  filter: drop-shadow(2px 2px 2px rgba(0, 0, 0, 0.25));
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-5xs) var(--padding-mid) var(--padding-xs)
+    var(--padding-smi);
+  position: relative;
+  z-index: 2;
+}
+.group1 {
+  position: absolute;
+  top: 36px;
+  left: 822px;
+  width: 368px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 0 var(--padding-304xl);
+}
+.yogaCardIcon {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  margin: 0 !important;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  object-fit: cover;
+  z-index: 1;
+}
+.maskGroupIcon6,
+.yogaCardIcon {
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.maskGroupContainer,
+.maskGroupIcon6,
+.maskGroupIcon7 {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+.maskGroupIcon7 {
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  z-index: 1;
+}
+.maskGroupContainer {
+  margin: 0 !important;
+}
+.frameGroup,
+.yoga {
+  position: relative;
+  z-index: 2;
+}
+.yoga {
+  flex: 1;
+  font-weight: 500;
+}
+.frameGroup {
+  width: 148px;
+  filter: drop-shadow(2px 2px 2px rgba(0, 0, 0, 0.25));
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-5xs) var(--padding-xs) var(--padding-xs)
+    var(--padding-4xs);
+  box-sizing: border-box;
+}
+.cricketIcon,
+.group2 {
+  position: absolute;
+  width: 368px;
+}
+.group2 {
+  top: 36px;
+  left: 428px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 0 var(--padding-304xl);
+  box-sizing: border-box;
+}
+.cricketIcon {
+  top: 429px;
+  left: 34px;
+  height: 368px;
+  object-fit: cover;
+  z-index: 1;
+}
+.cricket,
+.cricketWrapper {
+  position: absolute;
+  z-index: 2;
+}
+.cricket {
+  top: 8px;
+  left: 10.2px;
+  font-weight: 500;
+  display: inline-block;
+  width: 130.5px;
+  height: 25px;
+}
+.cricketWrapper {
+  top: 429px;
+  left: 32px;
+  filter: drop-shadow(2px 2px 2px rgba(0, 0, 0, 0.25));
+  width: 154px;
+  height: 45px;
+}
+.basketballCardIcon {
+  position: absolute;
+  top: 429px;
+  left: 822px;
+  width: 368px;
+  height: 368px;
+  object-fit: cover;
+  z-index: 1;
+}
+.boxingIcon,
+.maskGroupIcon8 {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  margin: 0 !important;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  max-height: 100%;
+}
+.boxingIcon {
+  object-fit: cover;
+  z-index: 1;
+}
+.maskGroupIcon8 {
+  left: 0;
+  max-width: 100%;
+  overflow: hidden;
+}
+.boxing {
+  flex: 1;
+  position: relative;
+  font-weight: 500;
+  z-index: 1;
+}
+.groupDiv,
+.productCounseling {
+  display: flex;
+  flex-direction: row;
+  box-sizing: border-box;
+}
+.groupDiv {
+  width: 145px;
+  filter: drop-shadow(2px 2px 2px rgba(0, 0, 0, 0.25));
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-5xs) var(--padding-xs) var(--padding-xs)
+    var(--padding-4xs);
+  position: relative;
+  z-index: 2;
+}
+.productCounseling {
+  position: absolute;
+  top: 429px;
+  left: 427px;
+  width: 369px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 0 var(--padding-304xl);
+}
+.group3,
+.maskGroupIcon10,
+.maskGroupIcon9 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+.group3 {
+  top: 429px;
+  left: 32px;
+  width: 154px;
+  height: 45px;
+  z-index: 6;
+}
+.circleShape {
+  position: absolute;
+  top: 170px;
+  left: 36px;
+  border-radius: var(--br-7xl);
+  background-color: var(--color-gainsboro-400);
+  border: 6px solid var(--border);
+  box-sizing: border-box;
+  width: 1224px;
+  height: 1225px;
+}
+.skatingIcon {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  margin: 0 !important;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  object-fit: cover;
+  z-index: 1;
+}
+.maskGroupIcon11,
+.skatingIcon {
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.maskGroupIcon11,
+.maskGroupIcon12,
+.verifiedCoaches {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+.maskGroupIcon12 {
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  z-index: 1;
+}
+.verifiedCoaches {
+  margin: 0 !important;
+}
+.skating {
+  align-self: stretch;
+  flex: 1;
+  position: relative;
+  font-weight: 500;
+  z-index: 2;
+}
+.contactUs,
+.verifiedCoachesParent {
+  display: flex;
+  flex-direction: row;
+  box-sizing: border-box;
+  position: relative;
+}
+.verifiedCoachesParent {
+  align-self: stretch;
+  width: 197px;
+  filter: drop-shadow(2px 2px 2px rgba(0, 0, 0, 0.25));
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-5xs) var(--padding-mid) var(--padding-xs)
+    var(--padding-smi);
+  z-index: 2;
+}
+.contactUs {
+  height: 368px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 0 var(--padding-304xl);
+  max-width: 100%;
+}
+.athleticsIcon,
+.maskGroupIcon13 {
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.athleticsIcon {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  margin: 0 !important;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  object-fit: cover;
+}
+.maskGroupIcon13 {
+  right: -0.1px;
+}
+.frameDiv,
+.maskGroupIcon13,
+.maskGroupIcon14 {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+}
+.maskGroupIcon14 {
+  right: -0.1px;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  z-index: 1;
+}
+.frameDiv {
+  margin: 0 !important;
+  right: 0.1px;
+}
+.athletics {
+  align-self: stretch;
+  flex: 1;
+  position: relative;
+  font-weight: 500;
+  z-index: 2;
+}
+.contactUs1,
+.frameContainer {
+  display: flex;
+  flex-direction: row;
+  box-sizing: border-box;
+  position: relative;
+}
+.frameContainer {
+  align-self: stretch;
+  width: 147px;
+  filter: drop-shadow(2px 2px 2px rgba(0, 0, 0, 0.25));
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-5xs) var(--padding-xs) var(--padding-xs)
+    var(--padding-4xs);
+  z-index: 1;
+}
+.contactUs1 {
+  height: 368px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 0 var(--padding-304xl);
+  max-width: 100%;
+}
+.maskGroupIcon15 {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  margin: 0 !important;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.arrwoIcon,
+.more {
+  width: 138px;
+  height: 138px;
+  position: relative;
+  max-width: 37%;
+  z-index: 1;
+}
+.more {
+  width: 124.7px;
+  height: 25px;
+  text-decoration: underline;
+  font-weight: 500;
+  display: inline-block;
+  flex-shrink: 0;
+  max-width: 34%;
+}
+.lockup,
+.maskGroupParent1 {
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.maskGroupParent1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 94px var(--padding-xl);
+  box-sizing: border-box;
+  position: relative;
+  gap: var(--gap-sm);
+  z-index: 1;
+  font-size: var(--font-size-13xl);
+}
+.lockup {
+  position: absolute;
+  top: 992px;
+  left: 70px;
+  width: 1156px;
+  display: grid;
+  flex-direction: row;
+  align-items: flex-end;
+  gap: var(--gap-7xl);
+  grid-template-columns: repeat(3, minmax(276px, 1fr));
+}
+.textInputField {
+  height: 1395px;
+  width: 1260px;
+  position: relative;
+  max-width: 100%;
+}
+.searchIcon {
+  width: 1369px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 var(--padding-xl);
+  box-sizing: border-box;
+  max-width: 100%;
+  text-align: center;
+  font-size: var(--font-size-5xl);
+  color: var(--color-black);
+  font-family: var(--font-raleway);
+}
+.maskGroupIcon16 {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  margin: 0 !important;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.comprehensiveSportCoverage,
+.experiencedMentorsConnect,
+.flexibleSchedulingWe,
+.personalizedCoachingOur,
+.seamlessChatPlatform {
+  margin-bottom: 0;
+}
+.personalizedCoachingOurPla {
+  margin: 0;
+  font-family: inherit;
+  font-size: inherit;
+  padding-left: var(--padding-13xl);
+}
+.blankLine,
+.joinAthletesAcademy {
+  margin: 0;
+}
+.personalizedCoachingOurContainer1 {
+  width: 100%;
+}
+.personalizedCoachingOurContainer {
+  height: 540px;
+  width: 1398px;
+  position: relative;
+  line-height: 128%;
+  font-weight: 500;
+  flex-shrink: 0;
+  z-index: 1;
+}
+.groupOfIcons,
+.maskGroupParent2,
+.personalizedCoachingOurContainer {
+  display: flex;
+  align-items: center;
+  max-width: 100%;
+}
+.maskGroupParent2 {
+  width: 1448px;
+  flex-direction: row;
+  justify-content: center;
+  position: relative;
+}
+.groupOfIcons {
+  width: 1563px;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: var(--gap-36xl);
+}
+.groupOfIconsWrapper {
+  width: 1729px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 var(--padding-xl) var(--padding-sm);
+  box-sizing: border-box;
+  max-width: 100%;
+  flex-shrink: 0;
+  text-align: justify;
+  font-size: var(--font-size-5xl);
+  color: var(--color-black);
+  font-family: var(--font-raleway);
+}
+.category,
+.lockIcon {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.lockIcon {
+  height: 962px;
+  overflow: auto;
+  flex-shrink: 0;
+  align-items: center;
+  padding: var(--padding-17xl) var(--padding-10xs) 0 0;
+  box-sizing: border-box;
+  gap: var(--gap-41xl);
+  max-width: 100%;
+  text-align: center;
+  font-size: var(--font-size-5xl);
+  color: var(--color-black);
+  font-family: var(--font-raleway);
+}
+.category {
+  width: 100%;
+  position: relative;
+  border-radius: var(--br-xl);
+  background-color: var(--color-white);
+  overflow: hidden;
+  align-items: flex-start;
+  gap: var(--gap-9xs);
+  letter-spacing: normal;
+}
+@media screen and (max-width: 1350px) {
+  .lockIcon {
+    gap: var(--gap-41xl);
+  }
+}
+@media screen and (max-width: 900px) {
+  .more {
+    font-size: var(--font-size-7xl);
+  }
+  .lockup {
+    justify-content: center;
+    grid-template-columns: minmax(276px, 1fr);
+  }
+  .groupOfIcons {
+    gap: var(--gap-36xl);
+  }
+}
+@media screen and (max-width: 450px) {
+  .basketball {
+    font-size: var(--font-size-lgi);
+  }
+  .lineSeparator {
+    flex-wrap: wrap;
+  }
+  .athletics,
+  .boxing,
+  .cricket,
+  .football,
+  .more,
+  .skating,
+  .tennis,
+  .yoga {
+    font-size: var(--font-size-lgi);
+  }
+  .textInputField {
+    height: auto;
+    min-height: 1395;
+  }
+  .personalizedCoachingOurContainer {
+    font-size: var(--font-size-lgi);
+    line-height: 25px;
+  }
+  .lockIcon {
+    height: auto;
+  }
+}

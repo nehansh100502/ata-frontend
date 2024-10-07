@@ -1,0 +1,236 @@
+.basketball,
+.football,
+.sports,
+.tennis,
+.yoga {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  font-family: inherit;
+  display: inline-block;
+  flex-shrink: 0;
+}
+.sports {
+  width: 379px;
+  height: 58px;
+  font-weight: 800;
+  max-width: 100%;
+}
+.basketball,
+.football,
+.tennis,
+.yoga {
+  align-self: stretch;
+  height: 27px;
+  font-weight: 700;
+}
+.footballTennisBasketballYog {
+  width: 268px;
+  height: 34px;
+  overflow: hidden;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-xl) 0 0;
+  box-sizing: border-box;
+  gap: var(--gap-51xl);
+}
+.atAthletesAcademy,
+.welcomeToAthletes {
+  margin: 0;
+}
+.welcomeToAthletesContainer {
+  align-self: stretch;
+  height: 95px;
+  position: relative;
+  font-size: var(--semi-bold-size);
+  display: inline-block;
+  flex-shrink: 0;
+}
+.frameSportsCard {
+  width: 682px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 0 var(--padding-24xl);
+  box-sizing: border-box;
+  gap: var(--gap-11xl);
+  max-width: 100%;
+  font-size: var(--font-size-17xl);
+}
+.cursor {
+  width: 31px;
+  height: 5px;
+  position: absolute;
+  margin: 0 !important;
+  bottom: 1px;
+  left: 63px;
+  border-radius: var(--br-3xl);
+  background-color: var(--color-gray-500);
+}
+.footballCardIcon {
+  height: 100%;
+  width: 100%;
+  object-fit: contain;
+  position: absolute;
+  left: 0;
+  top: 12px;
+  transform: scale(1.197);
+}
+.wrapperFootballCard {
+  height: 156.5px;
+  width: 156.5px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.tennisCardIcon {
+  width: 122.3px;
+  height: 122.3px;
+  position: relative;
+  object-fit: cover;
+  cursor: pointer;
+}
+.sportsCards {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-6xs) 0 0;
+  box-sizing: border-box;
+  min-width: 84px;
+}
+.basketballCardIcon {
+  width: 122.3px;
+  height: 122.3px;
+  position: relative;
+  object-fit: contain;
+  cursor: pointer;
+}
+.sportsCards1 {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-6xs) 0 0;
+  box-sizing: border-box;
+  min-width: 84px;
+}
+.yogaCardIcon {
+  height: 122.3px;
+  width: 122.3px;
+  position: relative;
+  object-fit: cover;
+  min-height: 122px;
+  cursor: pointer;
+}
+.arrowIcon {
+  width: 56px;
+  height: 56px;
+  position: relative;
+}
+.more1 {
+  width: 48px;
+  position: relative;
+  text-decoration: underline;
+  font-weight: 500;
+  display: inline-block;
+}
+.more,
+.moreWrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.more {
+  align-items: center;
+  gap: var(--gap-7xs);
+  cursor: pointer;
+}
+.moreWrapper {
+  align-items: flex-start;
+  padding: 0 0 var(--padding-6xs);
+}
+.cardGroupSports,
+.wrapperFootballCardParent {
+  display: flex;
+  flex-direction: row;
+  max-width: 100%;
+}
+.cardGroupSports {
+  flex: 1;
+  align-items: flex-end;
+  justify-content: space-between;
+  padding: 0 var(--padding-12xs) 0 0;
+  box-sizing: border-box;
+  min-width: 413px;
+  gap: var(--gap-xl);
+}
+.wrapperFootballCardParent {
+  align-self: stretch;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-26xl);
+}
+.cursorRectangle,
+.sportsParent {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.cursorRectangle {
+  align-self: stretch;
+  align-items: center;
+  padding: 0 0 var(--padding-17xl);
+  position: relative;
+  text-align: center;
+  font-size: var(--semi-bold-size);
+}
+.sportsParent {
+  position: absolute;
+  top: 449px;
+  left: 140px;
+  width: 839px;
+  align-items: flex-start;
+  padding: 0 var(--padding-11xs) 0 0;
+  gap: var(--gap-59xl);
+  text-align: left;
+  font-size: var(--font-size-67xl);
+  color: var(--color-black);
+  font-family: var(--font-raleway);
+}
+@media screen and (max-width: 750px) {
+  .sports {
+    font-size: var(--font-size-24xl);
+  }
+  .basketball,
+  .football,
+  .tennis,
+  .yoga {
+    font-size: var(--font-size-10xl);
+  }
+}
+@media screen and (max-width: 450px) {
+  .sports {
+    font-size: var(--font-size-7xl);
+  }
+  .basketball,
+  .football,
+  .tennis,
+  .yoga {
+    font-size: var(--font-size-3xl);
+  }
+  .cardGroupSports {
+    flex-wrap: wrap;
+    min-width: 100%;
+  }
+}

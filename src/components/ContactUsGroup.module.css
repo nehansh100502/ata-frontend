@@ -1,0 +1,462 @@
+.contactUsGroupChild {
+  height: 408px;
+  width: 1917px;
+  position: relative;
+  background-color: var(--color-gainsboro-100);
+  display: none;
+  max-width: 100%;
+}
+.lockupColor1 {
+  height: 139px;
+  flex: 1;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  object-fit: cover;
+  z-index: 1;
+}
+.lockupColor1Wrapper {
+  width: 231px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-5xs);
+  box-sizing: border-box;
+}
+.athletesAcademy {
+  margin: 0;
+  font-weight: 500;
+}
+.atAthletesAcademy {
+  margin: 0;
+}
+.athletesAcademyContainer {
+  align-self: stretch;
+  height: 95px;
+  position: relative;
+  line-height: 161%;
+  display: inline-block;
+  flex-shrink: 0;
+  z-index: 1;
+}
+.frameParent {
+  width: 464px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-8xl);
+  min-width: 464px;
+  max-width: 100%;
+}
+.product {
+  width: 101px;
+  flex: 1;
+  position: relative;
+  letter-spacing: 1px;
+  line-height: 161%;
+  display: inline-block;
+  z-index: 1;
+}
+.coachAdvice,
+.counseling {
+  margin: 0;
+}
+.counselingCoachAdvice {
+  align-self: stretch;
+  flex: 1;
+  position: relative;
+  font-size: var(--semi-bold-size);
+  line-height: 184%;
+  font-family: var(--font-raleway);
+  z-index: 1;
+}
+.productParent {
+  height: 78px;
+  width: 111px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-sm);
+}
+.coaches {
+  width: 101px;
+  height: 32px;
+  position: relative;
+  letter-spacing: 1px;
+  line-height: 161%;
+  display: inline-block;
+  flex-shrink: 0;
+  z-index: 1;
+}
+.athletics,
+.basketball,
+.boxing,
+.cricket,
+.football,
+.more,
+.skating,
+.tennis,
+.yoga {
+  margin: 0;
+}
+.more {
+  font-size: var(--font-size-mini);
+  text-decoration: underline;
+  font-weight: 300;
+  color: var(--color-deepskyblue-100);
+}
+.cricketFootballTennisContainer {
+  align-self: stretch;
+  flex: 1;
+  position: relative;
+  line-height: 184%;
+  z-index: 1;
+  font-size: var(--semi-bold-size);
+  font-family: var(--font-raleway);
+}
+.coachesParent {
+  height: 306px;
+  width: 111px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-sm);
+}
+.company {
+  align-self: stretch;
+  height: 32px;
+  position: relative;
+  letter-spacing: 1px;
+  line-height: 161%;
+  display: inline-block;
+  flex-shrink: 0;
+  z-index: 1;
+}
+.joinUs,
+.privacyPolicy,
+.termsOfUse {
+  margin: 0;
+}
+.privacyPolicyTermsContainer {
+  width: 111px;
+  flex: 1;
+  position: relative;
+  font-size: var(--semi-bold-size);
+  line-height: 184%;
+  font-family: var(--font-raleway);
+  display: inline-block;
+  z-index: 1;
+}
+.frameGroup,
+.productCoachesFrame {
+  display: flex;
+  align-items: flex-start;
+}
+.productCoachesFrame {
+  height: 132px;
+  width: 120px;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: var(--gap-sm);
+}
+.frameGroup {
+  align-self: stretch;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+}
+.secureArea,
+.secureAreaInner {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.secureAreaInner {
+  flex: 1;
+  flex-direction: column;
+  padding: var(--padding-6xs) 0 0;
+  box-sizing: border-box;
+  min-width: 350px;
+  font-size: var(--font-size-5xl);
+  font-family: var(--font-radley);
+}
+.secureArea {
+  width: 1045px;
+  flex-direction: row;
+  gap: var(--gap-24xl);
+  font-size: var(--semi-bold-size);
+  font-family: var(--font-raleway);
+}
+.contactUs {
+  width: 131px;
+  height: 32px;
+  position: relative;
+  letter-spacing: 1px;
+  line-height: 161%;
+  display: inline-block;
+  flex-shrink: 0;
+  z-index: 1;
+}
+.clickToStart {
+  color: var(--color-deepskyblue-100);
+}
+.weAreAvailable24X7OnCha {
+  margin: 0;
+}
+.emailId {
+  color: var(--color-black);
+}
+.emailIdNdsdndsnndkncom {
+  margin: 0;
+  color: var(--color-deepskyblue-100);
+}
+.weAreAvailableContainer {
+  align-self: stretch;
+  flex: 1;
+  position: relative;
+  line-height: 184%;
+  white-space: pre-wrap;
+  z-index: 1;
+}
+.socialMediaIconsChild,
+.socialMediaIconsItem {
+  width: 18px;
+  position: absolute;
+  margin: 0 !important;
+  left: 4px;
+  z-index: 2;
+}
+.socialMediaIconsChild {
+  height: 14px;
+  bottom: 6px;
+}
+.socialMediaIconsItem {
+  height: 18px;
+  top: 3px;
+}
+.socialMediaIcons {
+  align-self: stretch;
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+.facebookIcon,
+.instagramIcon,
+.linkedinIcon,
+.youtubeIcon {
+  height: 32px;
+  width: 32px;
+  position: relative;
+  min-height: 32px;
+  z-index: 1;
+}
+.socialMediaPlatforms {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-mini);
+}
+.availableOnChat {
+  align-self: stretch;
+  flex: 1;
+  gap: var(--gap-4xl);
+  font-size: var(--semi-bold-size);
+  font-family: var(--font-raleway);
+}
+.availableOnChat,
+.chatSupport,
+.privacyPolicyJoinUsFrame {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.chatSupport {
+  align-self: stretch;
+  flex: 1;
+  gap: var(--gap-sm);
+}
+.privacyPolicyJoinUsFrame {
+  height: 196px;
+  width: 266px;
+  padding: var(--padding-4xs) 0 0;
+  box-sizing: border-box;
+}
+.secure {
+  width: 120px;
+  height: 32px;
+  position: relative;
+  letter-spacing: 1px;
+  line-height: 161%;
+  display: inline-block;
+  flex-shrink: 0;
+  z-index: 1;
+}
+.privateConfidential,
+.securePayments,
+.verifiedCoaches {
+  margin: 0;
+}
+.privateConfidentialContainer {
+  align-self: stretch;
+  flex: 1;
+  position: relative;
+  line-height: 184%;
+  white-space: pre-wrap;
+  z-index: 1;
+}
+.confidentialTextChild {
+  height: 22.7px;
+  width: 21px;
+  bottom: 29.3px;
+  left: 2px;
+}
+.confidentialTextChild,
+.confidentialTextInner,
+.confidentialTextItem {
+  position: absolute;
+  margin: 0 !important;
+  z-index: 2;
+}
+.confidentialTextItem {
+  height: 18px;
+  width: 14px;
+  top: 3px;
+  left: 4px;
+}
+.confidentialTextInner {
+  height: 18.6px;
+  width: 14.4px;
+  bottom: 4.4px;
+  left: 4.8px;
+}
+.confidentialText {
+  align-self: stretch;
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  font-size: var(--semi-bold-size);
+  font-family: var(--font-raleway);
+}
+.contactUsText,
+.secureText {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.secureText {
+  height: 132px;
+  gap: var(--gap-sm);
+}
+.contactUsText {
+  flex: 1;
+}
+.privateFrameChild {
+  height: 37px;
+  width: 37px;
+  position: relative;
+  z-index: 1;
+}
+.privateFrame {
+  align-self: stretch;
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: flex-start;
+  gap: var(--gap-9xl);
+}
+.contactUsGroup,
+.secureFrame {
+  display: flex;
+  align-items: flex-start;
+  box-sizing: border-box;
+}
+.secureFrame {
+  height: 352px;
+  width: 270px;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: var(--padding-5xs) 0 0;
+}
+.contactUsGroup {
+  width: 1917px;
+  background-color: var(--color-gainsboro-100);
+  flex-direction: row;
+  justify-content: space-between;
+  padding: var(--padding-4xl) var(--padding-33xl) var(--padding-14xl)
+    var(--padding-69xl);
+  gap: var(--gap-xl);
+  max-width: 100%;
+  flex-shrink: 0;
+  text-align: left;
+  font-size: var(--font-size-5xl);
+  color: var(--color-black);
+  font-family: var(--font-radley);
+}
+@media screen and (max-width: 1800px) {
+  .contactUsGroup {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 1350px) {
+  .frameParent {
+    flex: 1;
+  }
+  .secureArea {
+    flex-wrap: wrap;
+  }
+  .contactUsGroup {
+    padding-left: var(--padding-25xl);
+    padding-right: var(--padding-7xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 900px) {
+  .frameParent,
+  .secureAreaInner {
+    min-width: 100%;
+  }
+  .secureArea {
+    gap: var(--gap-24xl);
+  }
+  .contactUsGroup {
+    padding-left: var(--padding-3xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .coaches,
+  .company,
+  .product {
+    font-size: var(--font-size-lgi);
+    line-height: 31px;
+  }
+  .frameGroup {
+    flex-wrap: wrap;
+  }
+  .contactUs,
+  .secure {
+    font-size: var(--font-size-lgi);
+    line-height: 31px;
+  }
+  .contactUsGroup {
+    padding-top: var(--padding-xl);
+    padding-bottom: var(--padding-2xl);
+    box-sizing: border-box;
+  }
+}

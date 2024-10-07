@@ -1,0 +1,563 @@
+.checkOutOur,
+.frameChild {
+  position: relative;
+  max-width: 100%;
+}
+.checkOutOur {
+  width: 843px;
+  height: 25px;
+  font-weight: 600;
+  display: inline-block;
+  flex-shrink: 0;
+}
+.frameChild {
+  width: 755px;
+  height: 255px;
+  border-radius: var(--br-7xl);
+  background: linear-gradient(
+      180deg,
+      rgba(90, 255, 245, 0),
+      rgba(90, 255, 245, 0.8)
+    ),
+    linear-gradient(171.21deg, #2ea7ff, rgba(46, 167, 255, 0));
+  backdrop-filter: blur(26.4px);
+  display: none;
+}
+.cricket,
+.vijay {
+  position: relative;
+  z-index: 1;
+}
+.vijay {
+  margin: 0;
+  align-self: stretch;
+  flex: 1;
+  font-size: inherit;
+  font-weight: 700;
+  font-family: inherit;
+}
+.cricket {
+  width: 66px;
+  height: 23px;
+  font-size: var(--font-size-xl);
+  font-weight: 500;
+  display: inline-block;
+}
+.tennisIcon {
+  width: 83px;
+  height: 84px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-lgi);
+}
+.frameItem {
+  height: 42px;
+  width: 166px;
+  position: relative;
+  border-radius: var(--br-18xl);
+  background-color: var(--color-goldenrod);
+  display: none;
+}
+.seeMore {
+  align-self: stretch;
+  width: 80px;
+  position: relative;
+  font-weight: 500;
+  display: inline-block;
+  z-index: 1;
+}
+.rectangleGroup {
+  width: 166px;
+  height: 42px;
+  border-radius: var(--br-18xl);
+  background-color: var(--color-goldenrod);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-xs) var(--padding-2xs) var(--padding-2xs);
+  box-sizing: border-box;
+  white-space: nowrap;
+  z-index: 1;
+  font-size: var(--semi-bold-size);
+}
+.frameInner,
+.rectangleParent {
+  border-radius: var(--br-7xl);
+  max-width: 100%;
+}
+.rectangleParent {
+  flex: 1;
+  background: linear-gradient(
+      180deg,
+      rgba(90, 255, 245, 0),
+      rgba(90, 255, 245, 0.8)
+    ),
+    linear-gradient(171.21deg, #2ea7ff, rgba(46, 167, 255, 0));
+  backdrop-filter: blur(26.4px);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding: var(--padding-36xl) var(--padding-xl) var(--padding-31xl)
+    var(--padding-2xl);
+  box-sizing: border-box;
+  gap: var(--gap-5xl);
+  min-width: 566px;
+}
+.frameInner {
+  width: 755px;
+  height: 255px;
+  position: relative;
+  background: linear-gradient(
+      180deg,
+      rgba(90, 255, 245, 0),
+      rgba(90, 255, 245, 0.8)
+    ),
+    linear-gradient(180deg, #2ea7ff, rgba(217, 217, 217, 0));
+  display: none;
+}
+.ajay,
+.football {
+  position: relative;
+  display: inline-block;
+  z-index: 1;
+}
+.ajay {
+  margin: 0;
+  width: 74px;
+  flex: 1;
+  font-size: inherit;
+  font-weight: 700;
+  font-family: inherit;
+}
+.football {
+  align-self: stretch;
+  height: 23px;
+  font-size: var(--font-size-xl);
+  font-weight: 500;
+}
+.groupOfRectangles {
+  width: 77px;
+  height: 84px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-lgi);
+}
+.rectangleDiv {
+  height: 42px;
+  width: 166px;
+  position: relative;
+  border-radius: var(--br-18xl);
+  background-color: var(--color-goldenrod);
+  display: none;
+}
+.seeMore1 {
+  align-self: stretch;
+  width: 80px;
+  position: relative;
+  font-weight: 500;
+  display: inline-block;
+  z-index: 1;
+}
+.groupDiv {
+  width: 166px;
+  height: 42px;
+  border-radius: var(--br-18xl);
+  background-color: var(--color-goldenrod);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-xs) var(--padding-2xs) var(--padding-2xs);
+  box-sizing: border-box;
+  white-space: nowrap;
+  z-index: 1;
+  font-size: var(--semi-bold-size);
+}
+.footballIcon,
+.rectangleContainer {
+  display: flex;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.rectangleContainer {
+  flex: 1;
+  border-radius: var(--br-7xl);
+  background: linear-gradient(
+      180deg,
+      rgba(90, 255, 245, 0),
+      rgba(90, 255, 245, 0.8)
+    ),
+    linear-gradient(180deg, #2ea7ff, rgba(217, 217, 217, 0));
+  flex-direction: column;
+  align-items: center;
+  padding: var(--padding-36xl) var(--padding-xl) var(--padding-31xl)
+    var(--padding-2xl);
+  box-sizing: border-box;
+  gap: var(--gap-5xl);
+  min-width: 566px;
+}
+.footballIcon {
+  align-self: stretch;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  gap: var(--gap-34xl);
+}
+.frameChild1,
+.frameChild2 {
+  border-radius: var(--br-7xl);
+  backdrop-filter: blur(26.4px);
+}
+.frameChild1 {
+  width: 755px;
+  height: 255px;
+  position: relative;
+  background: linear-gradient(
+      180deg,
+      rgba(227, 255, 56, 0),
+      rgba(227, 255, 56, 0.2)
+    ),
+    linear-gradient(
+      171.21deg,
+      rgba(245, 103, 103, 0.81),
+      rgba(245, 103, 103, 0)
+    );
+  display: none;
+  max-width: 100%;
+  z-index: 0;
+}
+.frameChild2 {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  margin: 0 !important;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: linear-gradient(
+      180deg,
+      rgba(90, 255, 245, 0),
+      rgba(90, 255, 245, 0.8)
+    ),
+    linear-gradient(176.35deg, #2ea7ff, rgba(46, 167, 255, 0));
+  z-index: 1;
+}
+.boxing,
+.vipul {
+  align-self: stretch;
+  flex: 1;
+  position: relative;
+  z-index: 2;
+}
+.vipul {
+  margin: 0;
+  font-size: inherit;
+  font-weight: 700;
+  font-family: inherit;
+}
+.boxing {
+  font-weight: 500;
+}
+.callToAction,
+.vipulParent {
+  display: flex;
+  justify-content: flex-start;
+}
+.callToAction {
+  width: 68px;
+  height: 23px;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0 0 0 var(--padding-10xs);
+  box-sizing: border-box;
+  font-size: var(--font-size-xl);
+}
+.vipulParent {
+  width: 90px;
+  height: 84px;
+  flex-direction: column;
+  align-items: center;
+  gap: var(--gap-lgi);
+}
+.frameChild3 {
+  height: 42px;
+  width: 166px;
+  position: relative;
+  border-radius: var(--br-18xl);
+  background-color: var(--color-goldenrod);
+  display: none;
+}
+.seeMore2 {
+  align-self: stretch;
+  width: 80px;
+  position: relative;
+  font-weight: 500;
+  display: inline-block;
+  z-index: 1;
+}
+.rectangleParent1,
+.rectangleParent2 {
+  display: flex;
+  align-items: center;
+  box-sizing: border-box;
+}
+.rectangleParent2 {
+  width: 166px;
+  height: 42px;
+  border-radius: var(--br-18xl);
+  background-color: var(--color-goldenrod);
+  flex-direction: row;
+  justify-content: center;
+  padding: var(--padding-xs) var(--padding-2xs) var(--padding-2xs);
+  white-space: nowrap;
+  z-index: 2;
+  font-size: var(--semi-bold-size);
+}
+.rectangleParent1 {
+  flex: 1;
+  background: linear-gradient(
+      180deg,
+      rgba(227, 255, 56, 0),
+      rgba(227, 255, 56, 0.2)
+    ),
+    linear-gradient(
+      171.21deg,
+      rgba(245, 103, 103, 0.81),
+      rgba(245, 103, 103, 0)
+    );
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: var(--padding-36xl) var(--padding-xl) var(--padding-31xl)
+    var(--padding-2xl);
+  position: relative;
+  gap: var(--gap-5xl);
+  min-width: 566px;
+  max-width: 100%;
+}
+.frameChild4,
+.frameChild5,
+.rectangleParent1 {
+  border-radius: var(--br-7xl);
+  backdrop-filter: blur(26.4px);
+}
+.frameChild4 {
+  width: 755px;
+  height: 255px;
+  position: relative;
+  background: linear-gradient(
+      180deg,
+      rgba(227, 255, 56, 0),
+      rgba(227, 255, 56, 0.2)
+    ),
+    linear-gradient(
+      171.21deg,
+      rgba(245, 103, 103, 0.81),
+      rgba(245, 103, 103, 0)
+    );
+  display: none;
+  max-width: 100%;
+  z-index: 0;
+}
+.frameChild5 {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  margin: 0 !important;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: linear-gradient(
+      180deg,
+      rgba(90, 255, 245, 0),
+      rgba(90, 255, 245, 0.8)
+    ),
+    linear-gradient(171.21deg, #2ea7ff, rgba(46, 167, 255, 0));
+  z-index: 1;
+}
+.dhruv,
+.tennis {
+  position: relative;
+  z-index: 2;
+}
+.dhruv {
+  margin: 0;
+  align-self: stretch;
+  flex: 1;
+  font-size: inherit;
+  font-weight: 700;
+  font-family: inherit;
+}
+.tennis {
+  width: 60px;
+  height: 23px;
+  font-size: var(--font-size-xl);
+  font-weight: 500;
+  display: inline-block;
+}
+.dhruvParent {
+  width: 104px;
+  height: 84px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-lgi);
+}
+.frameChild6 {
+  height: 42px;
+  width: 166px;
+  position: relative;
+  border-radius: var(--br-18xl);
+  background-color: var(--color-goldenrod);
+  display: none;
+}
+.seeMore3 {
+  align-self: stretch;
+  width: 80px;
+  position: relative;
+  font-weight: 500;
+  display: inline-block;
+  z-index: 1;
+}
+.rectangleParent3,
+.rectangleParent4 {
+  display: flex;
+  align-items: center;
+  box-sizing: border-box;
+}
+.rectangleParent4 {
+  width: 166px;
+  height: 42px;
+  border-radius: var(--br-18xl);
+  background-color: var(--color-goldenrod);
+  flex-direction: row;
+  justify-content: center;
+  padding: var(--padding-xs) var(--padding-2xs) var(--padding-2xs);
+  white-space: nowrap;
+  z-index: 2;
+  font-size: var(--semi-bold-size);
+}
+.rectangleParent3 {
+  flex: 1;
+  border-radius: var(--br-7xl);
+  background: linear-gradient(
+      180deg,
+      rgba(227, 255, 56, 0),
+      rgba(227, 255, 56, 0.2)
+    ),
+    linear-gradient(
+      171.21deg,
+      rgba(245, 103, 103, 0.81),
+      rgba(245, 103, 103, 0)
+    );
+  backdrop-filter: blur(26.4px);
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: var(--padding-36xl) var(--padding-xl) var(--padding-31xl)
+    var(--padding-2xl);
+  position: relative;
+  gap: var(--gap-5xl);
+  min-width: 566px;
+  max-width: 100%;
+}
+.ajayGroup,
+.cricketIcon,
+.footballIcon1 {
+  align-self: stretch;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.footballIcon1 {
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: var(--gap-34xl);
+}
+.ajayGroup,
+.cricketIcon {
+  flex-direction: column;
+  gap: var(--gap-18xl);
+  text-align: center;
+  font-size: var(--font-size-17xl);
+  color: var(--color-white);
+}
+.cricketIcon {
+  gap: var(--gap-4xl);
+  text-align: left;
+  font-size: var(--font-size-5xl);
+  color: var(--color-gray-500);
+  font-family: var(--font-raleway);
+}
+@media screen and (max-width: 900px) {
+  .vijay {
+    font-size: var(--font-size-10xl);
+  }
+  .rectangleParent {
+    min-width: 100%;
+  }
+  .ajay {
+    font-size: var(--font-size-10xl);
+  }
+  .rectangleContainer {
+    min-width: 100%;
+  }
+  .footballIcon {
+    gap: var(--gap-34xl);
+  }
+  .vipul {
+    font-size: var(--font-size-10xl);
+  }
+  .rectangleParent1 {
+    min-width: 100%;
+  }
+  .dhruv {
+    font-size: var(--font-size-10xl);
+  }
+  .rectangleParent3 {
+    min-width: 100%;
+  }
+  .footballIcon1 {
+    gap: var(--gap-34xl);
+  }
+  .ajayGroup {
+    gap: var(--gap-18xl);
+  }
+}
+@media screen and (max-width: 450px) {
+  .checkOutOur {
+    font-size: var(--font-size-lgi);
+  }
+  .vijay {
+    font-size: var(--font-size-3xl);
+  }
+  .cricket {
+    font-size: var(--semi-bold-size);
+  }
+  .ajay {
+    font-size: var(--font-size-3xl);
+  }
+  .football {
+    font-size: var(--semi-bold-size);
+  }
+  .vipul {
+    font-size: var(--font-size-3xl);
+  }
+  .boxing {
+    font-size: var(--semi-bold-size);
+  }
+  .dhruv {
+    font-size: var(--font-size-3xl);
+  }
+  .tennis {
+    font-size: var(--semi-bold-size);
+  }
+}

@@ -1,0 +1,29 @@
+.navbar {
+    padding-top: 5px;
+    position: absolute;
+    display: flex;
+    top: 0;
+    left: 0;
+    width: 100%;
+    font-style:Raleway;
+    background-image: linear-gradient(rgb(214, 202, 202), white, white, #ffffff3b);
+    height: 87px;
+  }
+  .navbar a {
+    padding: 16px;
+    color: rgb(1, 1, 1);
+    text-decoration: none;
+    font-size: 20px; 
+    margin-left: 20px;
+    cursor: pointer;
+  }
+  .navbar a:hover {
+    /* background-color: #cbf2e8; */
+    font-size: 20px;
+    font-weight: bold;
+  }
+  .active {
+    margin-left: 40px;
+  
+  }
+  

@@ -1,0 +1,1942 @@
+.coachChild,
+.frameChild {
+  position: relative;
+  display: none;
+}
+.coachChild {
+  align-self: stretch;
+  height: 1080px;
+  background-color: var(--color-steelblue-300);
+}
+.frameChild {
+  height: 44px;
+  width: 109px;
+  border-radius: var(--br-2xs);
+  background-color: var(--color-steelblue-200);
+}
+.football {
+  height: 28px;
+  position: relative;
+  font-weight: 500;
+  display: inline-block;
+  z-index: 1;
+}
+.rectangleParent {
+  border-radius: var(--br-2xs);
+  background-color: var(--color-steelblue-200);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-5xs) var(--padding-2xs) var(--padding-5xs)
+    var(--padding-5xs);
+  cursor: pointer;
+}
+.sportLabelsChild {
+  height: 27px;
+  width: 13.2px;
+  position: relative;
+}
+.coaches {
+  margin: 0;
+  height: 28px;
+  position: relative;
+  font-size: inherit;
+  font-weight: 500;
+  font-family: inherit;
+  color: var(--color-gray-500);
+  display: inline-block;
+}
+.sportLabels {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-sm);
+}
+.searchChild {
+  height: 41px;
+  width: 215px;
+  position: relative;
+  border-radius: var(--br-7xl);
+  border: 1px solid var(--color-gray-500);
+  box-sizing: border-box;
+  display: none;
+}
+.chatSupportIcon {
+  height: 18px;
+  width: 18px;
+  position: relative;
+  z-index: 1;
+}
+.nameSportsCategory {
+  flex: 1;
+  position: relative;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  z-index: 1;
+}
+.privacyPolicy,
+.search {
+  display: flex;
+  justify-content: flex-start;
+  box-sizing: border-box;
+}
+.search {
+  align-self: stretch;
+  height: 41px;
+  border-radius: var(--br-7xl);
+  border: 1px solid var(--color-gray-500);
+  flex-direction: row;
+  align-items: flex-end;
+  padding: var(--padding-4xs) var(--padding-lg) var(--padding-2xs)
+    var(--padding-xs);
+  gap: var(--gap-sm);
+  white-space: nowrap;
+}
+.privacyPolicy {
+  flex: 1;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0 var(--padding-8xs) 0 0;
+  min-width: 143px;
+}
+.frameItem {
+  height: 41px;
+  width: 215px;
+  position: relative;
+  border-radius: var(--br-7xl);
+  border: 1px solid var(--color-gray-500);
+  box-sizing: border-box;
+  display: none;
+}
+.expHighTo {
+  flex: 1;
+  position: relative;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  z-index: 1;
+}
+.coachesSecurePayChild {
+  width: 18px;
+  height: 8.8px;
+  position: relative;
+  object-fit: contain;
+  z-index: 1;
+}
+.coachesSecurePay,
+.rectangleGroup {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 0 var(--padding-9xs);
+}
+.rectangleGroup {
+  flex: 0.8333;
+  border-radius: var(--br-7xl);
+  border: 1px solid var(--color-gray-500);
+  box-sizing: border-box;
+  flex-direction: row;
+  align-items: flex-end;
+  padding: var(--padding-4xs) var(--padding-base) var(--padding-xs)
+    var(--padding-3xl);
+  gap: var(--gap-7xs);
+  min-width: 140px;
+}
+.counselingFrameChild {
+  height: 39px;
+  width: 47px;
+  position: relative;
+}
+.counselingFrame {
+  width: 500px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: flex-start;
+  gap: var(--gap-4xs);
+  max-width: 100%;
+  font-size: var(--font-size-lg);
+  color: var(--color-gray-800);
+  font-family: var(--reg);
+}
+.athleteFrame,
+.athleteGroupWrapper,
+.lockupText {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.athleteFrame {
+  flex: 1;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+}
+.athleteGroupWrapper,
+.lockupText {
+  width: 1283px;
+  justify-content: flex-start;
+  padding: 0 var(--padding-20xl) 0 var(--padding-xl);
+  box-sizing: border-box;
+}
+.athleteGroupWrapper {
+  width: 1280px;
+  padding: 0 var(--padding-xl) 0 0;
+}
+.frameInner {
+  height: 109px;
+  width: 1260px;
+  position: relative;
+  border-radius: var(--br-42xl);
+  background-color: var(--color-deepskyblue-200);
+  display: none;
+  max-width: 100%;
+}
+.groupIcon {
+  height: 71.7px;
+  width: 50px;
+  position: relative;
+  z-index: 1;
+}
+.boxing,
+.payRs100 {
+  display: flex;
+  max-width: 100%;
+}
+.payRs100 {
+  margin: 0;
+  width: 542px;
+  position: relative;
+  font-size: inherit;
+  font-weight: 400;
+  font-family: inherit;
+  align-items: center;
+  justify-content: center;
+  z-index: 1;
+}
+.boxing {
+  flex: 1;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  min-width: 576px;
+  flex-shrink: 0;
+}
+.productCounselingChild {
+  height: 62px;
+  width: 248px;
+  position: relative;
+  border-radius: var(--br-42xl);
+  background-color: var(--color-steelblue-100);
+  display: none;
+}
+.coachesIcon,
+.recharge {
+  position: relative;
+  z-index: 2;
+}
+.coachesIcon {
+  height: 25px;
+  width: 17px;
+}
+.recharge {
+  flex: 1;
+}
+.productCounseling,
+.rectangleContainer {
+  border-radius: var(--br-42xl);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+}
+.productCounseling {
+  width: 248px;
+  background-color: var(--color-steelblue-100);
+  padding: var(--padding-mini) var(--padding-6xs) var(--padding-sm)
+    var(--padding-16xl);
+  box-sizing: border-box;
+  gap: var(--gap-2xs);
+  z-index: 1;
+  font-size: var(--font-size-17xl);
+}
+.rectangleContainer {
+  flex: 1;
+  background-color: var(--color-deepskyblue-200);
+  flex-wrap: wrap;
+  padding: var(--padding-xl) var(--padding-7xl) var(--padding-lg)
+    var(--padding-21xl);
+  gap: var(--gap-8xs);
+}
+.cricket,
+.rectangleContainer,
+.vivekCardChild {
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.cricket {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 0 var(--padding-5xs);
+}
+.vivekCardChild {
+  height: 221.7px;
+  width: 397.3px;
+  position: relative;
+  border-radius: var(--br-3xs);
+  background-color: var(--color-lightgray-100);
+  box-shadow: 0 1px 10px rgba(0, 0, 0, 0.15);
+  border: 2px solid var(--border);
+  display: none;
+}
+.maskGroupIcon {
+  height: 162.8px;
+  width: 162.8px;
+  position: relative;
+  object-fit: contain;
+  z-index: 1;
+}
+.ratingChild,
+.starIcon {
+  position: relative;
+  border-radius: var(--br-xl);
+  z-index: 1;
+}
+.ratingChild {
+  height: 27.2px;
+  width: 65.5px;
+  background-color: var(--color-white);
+  box-shadow: 1px 1px 8px rgba(0, 0, 0, 0.15);
+  display: none;
+}
+.starIcon {
+  height: 16.8px;
+  width: 18.7px;
+}
+.privateConfidentialVerified {
+  position: relative;
+  font-weight: 500;
+  z-index: 1;
+  margin-left: -4px;
+}
+.frameGroup1,
+.rating {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.rating {
+  margin: 0 !important;
+  position: absolute;
+  bottom: -14.2px;
+  left: calc(50% - 32.5px);
+  border-radius: var(--br-xl);
+  background-color: var(--color-white);
+  box-shadow: 1px 1px 8px rgba(0, 0, 0, 0.15);
+  padding: var(--padding-9xs) var(--padding-4xs) var(--padding-8xs)
+    var(--padding-sm);
+  z-index: 2;
+}
+.frameGroup1 {
+  position: relative;
+  min-width: 163px;
+  flex-shrink: 0;
+}
+.andreaw {
+  position: relative;
+  font-size: var(--semi-bold-size);
+  z-index: 1;
+}
+.footballVolleyball {
+  align-self: stretch;
+  flex: 1;
+}
+.englishHindi,
+.footballVolleyball,
+.free {
+  position: relative;
+  z-index: 1;
+}
+.englishHindi {
+  align-self: stretch;
+  flex: 1;
+  color: var(--color-gray-800);
+}
+.free {
+  font-size: var(--font-size-smi);
+  font-weight: 600;
+  color: var(--color-green-200);
+}
+.companymessages,
+.groupOfSports {
+  align-self: stretch;
+  flex: 1;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.groupOfSports {
+  flex-direction: column;
+  gap: var(--gap-8xs);
+}
+.companymessages {
+  flex-direction: row;
+  padding: 0 var(--padding-lgi) 0 var(--padding-sm);
+}
+.connectChild {
+  height: 32.6px;
+  width: 88.4px;
+  position: relative;
+  border-radius: var(--br-6xl);
+  border: 2px solid var(--color-green-100);
+  box-sizing: border-box;
+  display: none;
+}
+.callNow {
+  position: relative;
+  font-weight: 500;
+  z-index: 1;
+}
+.connect,
+.connectItem {
+  border-radius: var(--br-6xl);
+}
+.connect {
+  border: 2px solid var(--color-green-100);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-end;
+  padding: var(--padding-5xs) var(--padding-5xs) var(--padding-6xs)
+    var(--padding-smi);
+  z-index: 1;
+}
+.connectItem {
+  height: 32.6px;
+  width: 88.4px;
+  position: relative;
+  border: 2px solid var(--color-darkorange-200);
+  box-sizing: border-box;
+  display: none;
+}
+.chatNow {
+  position: relative;
+  font-weight: 500;
+  z-index: 1;
+}
+.connect1,
+.secureServices {
+  display: flex;
+  flex-direction: row;
+}
+.connect1 {
+  border-radius: var(--br-6xl);
+  border: 2px solid var(--color-darkorange-200);
+  align-items: center;
+  justify-content: flex-end;
+  padding: var(--padding-5xs) var(--padding-9xs) var(--padding-6xs)
+    var(--padding-2xs);
+  z-index: 1;
+  text-align: center;
+}
+.secureServices {
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-4xs);
+  font-size: var(--font-size-mini);
+  font-family: var(--font-roboto);
+}
+.frameFrameProductCounseling,
+.group {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.frameFrameProductCounseling {
+  align-self: stretch;
+  height: 147px;
+  align-items: center;
+  gap: var(--gap-xl);
+}
+.group {
+  flex: 1;
+  align-items: flex-start;
+  padding: var(--padding-9xs) 0 0;
+  box-sizing: border-box;
+  min-width: 121px;
+  flex-shrink: 0;
+  text-align: left;
+  font-size: var(--reg-size);
+  color: var(--color-black);
+  font-family: var(--font-raleway);
+}
+.vivekCard,
+.vivekCardItem {
+  border-radius: var(--br-3xs);
+  background-color: var(--color-lightgray-100);
+  box-shadow: 0 1px 10px rgba(0, 0, 0, 0.15);
+  border: 2px solid var(--border);
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.vivekCard {
+  width: 397px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: var(--padding-5xl) var(--padding-lgi) var(--padding-16xl)
+    var(--padding-2xl);
+  gap: var(--gap-5xs);
+}
+.vivekCardItem {
+  height: 221.7px;
+  width: 397.3px;
+  position: relative;
+  display: none;
+}
+.maskGroupIcon1 {
+  height: 162.8px;
+  width: 162.8px;
+  position: relative;
+  object-fit: contain;
+  z-index: 1;
+}
+.ratingItem {
+  height: 27.2px;
+  width: 65.5px;
+  border-radius: var(--br-xl);
+  background-color: var(--color-white);
+  box-shadow: 1px 1px 8px rgba(0, 0, 0, 0.15);
+  display: none;
+}
+.div,
+.ratingItem,
+.starIcon1 {
+  position: relative;
+  z-index: 1;
+}
+.starIcon1 {
+  height: 16.8px;
+  width: 18.7px;
+  border-radius: var(--br-xl);
+}
+.div {
+  font-weight: 500;
+  margin-left: -4px;
+}
+.maskGroupParent,
+.rating1 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.rating1 {
+  margin: 0 !important;
+  position: absolute;
+  bottom: -14.2px;
+  left: calc(50% - 32.55px);
+  border-radius: var(--br-xl);
+  background-color: var(--color-white);
+  box-shadow: 1px 1px 8px rgba(0, 0, 0, 0.15);
+  padding: var(--padding-9xs) var(--padding-4xs) var(--padding-8xs)
+    var(--padding-sm);
+  z-index: 2;
+}
+.maskGroupParent {
+  position: relative;
+  min-width: 163px;
+}
+.andreaw1 {
+  position: relative;
+  z-index: 1;
+}
+.andreawWrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-sm);
+}
+.connectInner {
+  height: 32.6px;
+  width: 88.4px;
+  position: relative;
+  border-radius: var(--br-6xl);
+  border: 2px solid var(--color-green-100);
+  box-sizing: border-box;
+  display: none;
+}
+.callNow1 {
+  position: relative;
+  font-weight: 500;
+  z-index: 1;
+}
+.connect2,
+.rectangleDiv {
+  border-radius: var(--br-6xl);
+}
+.connect2 {
+  border: 2px solid var(--color-green-100);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-end;
+  padding: var(--padding-5xs) var(--padding-5xs) var(--padding-6xs)
+    var(--padding-smi);
+  z-index: 1;
+}
+.rectangleDiv {
+  height: 32.6px;
+  width: 88.4px;
+  position: relative;
+  border: 2px solid var(--color-darkorange-200);
+  box-sizing: border-box;
+  display: none;
+}
+.chatNow1 {
+  position: relative;
+  font-weight: 500;
+  z-index: 1;
+}
+.connect3 {
+  border-radius: var(--br-6xl);
+  border: 2px solid var(--color-darkorange-200);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-5xs) var(--padding-7xs) var(--padding-6xs)
+    var(--padding-3xs);
+  z-index: 1;
+  text-align: center;
+}
+.connectParent,
+.frameParent,
+.vivekCardInner {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.connectParent {
+  flex-direction: row;
+  gap: var(--gap-4xs);
+  font-size: var(--font-size-mini);
+  font-family: var(--font-roboto);
+}
+.frameParent,
+.vivekCardInner {
+  flex-direction: column;
+}
+.frameParent {
+  flex: 1;
+  gap: var(--gap-6xs);
+}
+.vivekCardInner {
+  height: 151px;
+  padding: var(--padding-9xs) 0 0;
+  box-sizing: border-box;
+  min-width: 186px;
+  text-align: left;
+  color: var(--color-black);
+  font-family: var(--font-raleway);
+}
+.vivekCard1,
+.vivekCardChild1 {
+  border-radius: var(--br-3xs);
+  background-color: var(--color-lightgray-100);
+  box-shadow: 0 1px 10px rgba(0, 0, 0, 0.15);
+  border: 2px solid var(--border);
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.vivekCard1 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: var(--padding-5xl) var(--padding-lgi) var(--padding-16xl)
+    var(--padding-2xl);
+  gap: var(--gap-5xs);
+}
+.vivekCardChild1 {
+  height: 221.7px;
+  width: 397.3px;
+  position: relative;
+  display: none;
+}
+.maskGroupIcon2 {
+  height: 162.8px;
+  width: 162.8px;
+  position: relative;
+  object-fit: contain;
+  z-index: 1;
+}
+.ratingInner {
+  height: 27.2px;
+  width: 65.5px;
+  border-radius: var(--br-xl);
+  background-color: var(--color-white);
+  box-shadow: 1px 1px 8px rgba(0, 0, 0, 0.15);
+  display: none;
+}
+.div1,
+.ratingInner,
+.starIcon2 {
+  position: relative;
+  z-index: 1;
+}
+.starIcon2 {
+  height: 16.8px;
+  width: 18.7px;
+  border-radius: var(--br-xl);
+}
+.div1 {
+  font-weight: 500;
+  margin-left: -4px;
+}
+.maskGroupGroup,
+.rating2 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.rating2 {
+  margin: 0 !important;
+  position: absolute;
+  bottom: -14.2px;
+  left: calc(50% - 32.6px);
+  border-radius: var(--br-xl);
+  background-color: var(--color-white);
+  box-shadow: 1px 1px 8px rgba(0, 0, 0, 0.15);
+  padding: var(--padding-9xs) var(--padding-4xs) var(--padding-8xs)
+    var(--padding-sm);
+  z-index: 2;
+}
+.maskGroupGroup {
+  position: relative;
+  min-width: 163px;
+  flex-shrink: 0;
+}
+.andreaw2 {
+  position: relative;
+  z-index: 1;
+}
+.andreawContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-sm);
+}
+.connectChild1 {
+  height: 32.6px;
+  width: 88.4px;
+  position: relative;
+  border-radius: var(--br-6xl);
+  border: 2px solid var(--color-green-100);
+  box-sizing: border-box;
+  display: none;
+}
+.callNow2 {
+  position: relative;
+  font-weight: 500;
+  z-index: 1;
+}
+.connect4,
+.connectChild2 {
+  border-radius: var(--br-6xl);
+}
+.connect4 {
+  border: 2px solid var(--color-green-100);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-end;
+  padding: var(--padding-5xs) var(--padding-5xs) var(--padding-6xs)
+    var(--padding-smi);
+  z-index: 1;
+}
+.connectChild2 {
+  height: 32.6px;
+  width: 88.4px;
+  position: relative;
+  border: 2px solid var(--color-darkorange-200);
+  box-sizing: border-box;
+  display: none;
+}
+.chatNow2 {
+  position: relative;
+  font-weight: 500;
+  z-index: 1;
+}
+.connect5,
+.connectGroup {
+  display: flex;
+  flex-direction: row;
+}
+.connect5 {
+  border-radius: var(--br-6xl);
+  border: 2px solid var(--color-darkorange-200);
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-5xs) var(--padding-7xs) var(--padding-6xs)
+    var(--padding-3xs);
+  z-index: 1;
+  text-align: center;
+}
+.connectGroup {
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-4xs);
+}
+.frameContainer,
+.frameDiv,
+.frameParent1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.frameParent1 {
+  align-self: stretch;
+  flex: 1;
+  align-items: center;
+  gap: var(--gap-xl);
+  font-size: var(--font-size-mini);
+  font-family: var(--font-roboto);
+}
+.frameContainer,
+.frameDiv {
+  align-items: flex-start;
+}
+.frameContainer {
+  align-self: stretch;
+  height: 149px;
+  gap: var(--gap-6xs);
+}
+.frameDiv {
+  flex: 1;
+  padding: var(--padding-9xs) 0 0;
+  box-sizing: border-box;
+  min-width: 121px;
+  flex-shrink: 0;
+  text-align: left;
+  color: var(--color-black);
+  font-family: var(--font-raleway);
+}
+.vivekCard2,
+.vivekCardChild2 {
+  border-radius: var(--br-3xs);
+  background-color: var(--color-lightgray-100);
+  box-shadow: 0 1px 10px rgba(0, 0, 0, 0.15);
+  border: 2px solid var(--border);
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.vivekCard2 {
+  width: 397px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: var(--padding-5xl) var(--padding-lgi) var(--padding-16xl)
+    var(--padding-2xl);
+  gap: var(--gap-5xs);
+}
+.vivekCardChild2 {
+  height: 221.7px;
+  width: 397.3px;
+  position: relative;
+  display: none;
+}
+.maskGroupIcon3 {
+  height: 162.8px;
+  width: 162.8px;
+  position: relative;
+  object-fit: contain;
+  z-index: 1;
+}
+.ratingChild1,
+.starIcon3 {
+  position: relative;
+  border-radius: var(--br-xl);
+}
+.ratingChild1 {
+  height: 27.2px;
+  width: 65.5px;
+  background-color: var(--color-white);
+  box-shadow: 1px 1px 8px rgba(0, 0, 0, 0.15);
+  display: none;
+  z-index: 1;
+}
+.starIcon3 {
+  height: 16.8px;
+  width: 18.7px;
+  z-index: 2;
+}
+.div2 {
+  align-self: stretch;
+  flex: 1;
+  position: relative;
+  font-weight: 500;
+  flex-shrink: 0;
+  z-index: 1;
+  margin-left: -4px;
+}
+.rating3 {
+  height: 28px;
+  width: 66px;
+  margin: 0 !important;
+  position: absolute;
+  bottom: -14.2px;
+  left: calc(50% - 32.5px);
+  border-radius: var(--br-xl);
+  background-color: var(--color-white);
+  box-shadow: 1px 1px 8px rgba(0, 0, 0, 0.15);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-9xs) var(--padding-4xs) var(--padding-8xs)
+    var(--padding-sm);
+  box-sizing: border-box;
+  z-index: 2;
+}
+.andreaw3,
+.maskGroupContainer {
+  position: relative;
+  flex-shrink: 0;
+}
+.maskGroupContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  min-width: 163px;
+}
+.andreaw3 {
+  width: 142.3px;
+  height: 20.5px;
+  display: inline-block;
+  z-index: 1;
+}
+.englishHindi1,
+.footballVolleyball1 {
+  align-self: stretch;
+  flex: 1;
+  position: relative;
+  z-index: 1;
+}
+.englishHindi1 {
+  color: var(--color-gray-800);
+}
+.footballVolleyballParent {
+  align-self: stretch;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-10xs);
+  font-size: var(--reg-size);
+}
+.free1 {
+  width: 53.8px;
+  height: 17.9px;
+  position: relative;
+  font-size: var(--font-size-smi);
+  font-weight: 600;
+  color: var(--color-green-200);
+  display: inline-block;
+  flex-shrink: 0;
+  z-index: 1;
+}
+.andreawParent,
+.frameWrapper {
+  align-self: stretch;
+  flex: 1;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.andreawParent {
+  flex-direction: column;
+  gap: var(--gap-6xs);
+}
+.frameWrapper {
+  flex-direction: row;
+  padding: 0 var(--padding-lgi) 0 var(--padding-sm);
+}
+.connectChild3 {
+  height: 32.6px;
+  width: 88.4px;
+  position: relative;
+  border-radius: var(--br-6xl);
+  border: 2px solid var(--color-green-100);
+  box-sizing: border-box;
+  display: none;
+}
+.callNow3 {
+  align-self: stretch;
+  flex: 1;
+  position: relative;
+  font-weight: 500;
+  z-index: 1;
+}
+.connect6,
+.connectChild4 {
+  border-radius: var(--br-6xl);
+}
+.connect6 {
+  align-self: stretch;
+  flex: 0.893;
+  border: 2px solid var(--color-green-100);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-5xs) var(--padding-xs) var(--padding-6xs)
+    var(--padding-sm);
+  z-index: 1;
+}
+.connectChild4 {
+  height: 32.6px;
+  width: 88.4px;
+  position: relative;
+  border: 2px solid var(--color-darkorange-200);
+  box-sizing: border-box;
+  display: none;
+}
+.chatNow3 {
+  align-self: stretch;
+  flex: 1;
+  position: relative;
+  font-weight: 500;
+  z-index: 1;
+}
+.connect7,
+.connectContainer {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+}
+.connect7 {
+  flex: 1;
+  border-radius: var(--br-6xl);
+  border: 2px solid var(--color-darkorange-200);
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-5xs) var(--padding-4xs) var(--padding-6xs)
+    var(--padding-3xs);
+  z-index: 1;
+  text-align: center;
+}
+.connectContainer {
+  height: 33px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-4xs);
+  font-size: var(--font-size-mini);
+  font-family: var(--font-roboto);
+}
+.frameParent2,
+.vivekCardInner1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.frameParent2 {
+  align-self: stretch;
+  height: 149px;
+  align-items: center;
+  gap: var(--gap-xl);
+}
+.vivekCardInner1 {
+  flex: 1;
+  align-items: flex-start;
+  padding: var(--padding-9xs) 0 0;
+  box-sizing: border-box;
+  min-width: 121px;
+  flex-shrink: 0;
+  text-align: left;
+  color: var(--color-black);
+  font-family: var(--font-raleway);
+}
+.vivekCard3,
+.vivekCardChild3 {
+  border-radius: var(--br-3xs);
+  background-color: var(--color-lightgray-100);
+  box-shadow: 0 1px 10px rgba(0, 0, 0, 0.15);
+  border: 2px solid var(--border);
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.vivekCard3 {
+  width: 397px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: var(--padding-5xl) var(--padding-lgi) var(--padding-16xl)
+    var(--padding-2xl);
+  gap: var(--gap-5xs);
+}
+.vivekCardChild3 {
+  height: 221.7px;
+  width: 397.3px;
+  position: relative;
+  display: none;
+}
+.maskGroupIcon4 {
+  height: 162.8px;
+  width: 162.8px;
+  position: relative;
+  object-fit: contain;
+  z-index: 1;
+}
+.ratingChild2,
+.starIcon4 {
+  position: relative;
+  border-radius: var(--br-xl);
+}
+.ratingChild2 {
+  height: 27.2px;
+  width: 65.5px;
+  background-color: var(--color-white);
+  box-shadow: 1px 1px 8px rgba(0, 0, 0, 0.15);
+  display: none;
+  z-index: 1;
+}
+.starIcon4 {
+  height: 16.8px;
+  width: 18.7px;
+  z-index: 2;
+}
+.div3 {
+  align-self: stretch;
+  flex: 1;
+  position: relative;
+  font-weight: 500;
+  flex-shrink: 0;
+  z-index: 1;
+  margin-left: -4px;
+}
+.rating4 {
+  height: 28px;
+  width: 66px;
+  margin: 0 !important;
+  position: absolute;
+  bottom: -14.2px;
+  left: calc(50% - 32.5px);
+  border-radius: var(--br-xl);
+  background-color: var(--color-white);
+  box-shadow: 1px 1px 8px rgba(0, 0, 0, 0.15);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-9xs) var(--padding-4xs) var(--padding-8xs)
+    var(--padding-sm);
+  box-sizing: border-box;
+  z-index: 2;
+}
+.andreaw4,
+.maskGroupParent1 {
+  position: relative;
+  flex-shrink: 0;
+}
+.maskGroupParent1 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  min-width: 163px;
+}
+.andreaw4 {
+  width: 142.3px;
+  height: 20.5px;
+  display: inline-block;
+  z-index: 1;
+}
+.englishTelegu,
+.football1 {
+  align-self: stretch;
+  flex: 1;
+  position: relative;
+  z-index: 1;
+}
+.englishTelegu {
+  color: var(--color-gray-800);
+}
+.footballParent {
+  align-self: stretch;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-10xs);
+  font-size: var(--reg-size);
+}
+.contactUsIcon {
+  height: 11px;
+  width: 8px;
+  position: relative;
+  z-index: 1;
+}
+.companyInfo,
+.min {
+  align-self: stretch;
+  flex: 1;
+}
+.min {
+  position: relative;
+  z-index: 1;
+}
+.companyInfo {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: flex-start;
+  gap: var(--gap-10xs);
+}
+.andreawGroup,
+.companyInfoWrapper,
+.frameWrapper1 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.companyInfoWrapper {
+  width: 75px;
+  height: 18px;
+  flex-direction: row;
+  padding: 0 var(--padding-8xs);
+  box-sizing: border-box;
+  font-size: var(--font-size-smi);
+  color: var(--color-darkorange-200);
+  font-family: var(--font-roboto);
+}
+.andreawGroup,
+.frameWrapper1 {
+  align-self: stretch;
+  flex: 1;
+}
+.andreawGroup {
+  flex-direction: column;
+  gap: var(--gap-6xs);
+}
+.frameWrapper1 {
+  flex-direction: row;
+  padding: 0 var(--padding-lgi) 0 var(--padding-sm);
+}
+.connectChild5 {
+  height: 32.6px;
+  width: 88.4px;
+  position: relative;
+  border-radius: var(--br-6xl);
+  border: 2px solid var(--color-green-100);
+  box-sizing: border-box;
+  display: none;
+}
+.callNow4 {
+  align-self: stretch;
+  flex: 1;
+  position: relative;
+  font-weight: 500;
+  z-index: 1;
+}
+.connect8,
+.connectChild6 {
+  border-radius: var(--br-6xl);
+}
+.connect8 {
+  align-self: stretch;
+  flex: 0.8295;
+  border: 2px solid var(--color-green-100);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-5xs) var(--padding-xs) var(--padding-6xs)
+    var(--padding-sm);
+  z-index: 1;
+}
+.connectChild6 {
+  height: 32.6px;
+  width: 88.4px;
+  position: relative;
+  border: 2px solid var(--color-darkorange-200);
+  box-sizing: border-box;
+  display: none;
+}
+.chatNow4 {
+  align-self: stretch;
+  width: 67.9px;
+  position: relative;
+  font-weight: 500;
+  display: inline-block;
+  flex-shrink: 0;
+  z-index: 1;
+}
+.connect9,
+.connectParent1 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+}
+.connect9 {
+  flex: 1;
+  border-radius: var(--br-6xl);
+  border: 2px solid var(--color-darkorange-200);
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-5xs) var(--padding-6xs) var(--padding-6xs);
+  z-index: 1;
+  text-align: center;
+}
+.connectParent1 {
+  height: 33px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-4xs);
+  font-size: var(--font-size-mini);
+  font-family: var(--font-roboto);
+}
+.frameParent3,
+.vivekCardInner2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.frameParent3 {
+  align-self: stretch;
+  height: 150px;
+  align-items: center;
+  gap: var(--gap-xl);
+}
+.vivekCardInner2 {
+  flex: 1;
+  align-items: flex-start;
+  padding: var(--padding-9xs) 0 0;
+  box-sizing: border-box;
+  min-width: 121px;
+  flex-shrink: 0;
+  text-align: left;
+  color: var(--color-black);
+  font-family: var(--font-raleway);
+}
+.vivekCard4,
+.vivekCardChild4 {
+  border-radius: var(--br-3xs);
+  background-color: var(--color-lightgray-100);
+  box-shadow: 0 1px 10px rgba(0, 0, 0, 0.15);
+  border: 2px solid var(--border);
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.vivekCard4 {
+  width: 397px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: var(--padding-5xl) var(--padding-lgi) var(--padding-16xl)
+    var(--padding-2xl);
+  gap: var(--gap-5xs);
+}
+.vivekCardChild4 {
+  height: 221.7px;
+  width: 397.3px;
+  position: relative;
+  display: none;
+}
+.maskGroupIcon5 {
+  height: 162.8px;
+  width: 162.8px;
+  position: relative;
+  object-fit: contain;
+  z-index: 1;
+}
+.ratingChild3,
+.starIcon5 {
+  position: relative;
+  border-radius: var(--br-xl);
+}
+.ratingChild3 {
+  height: 27.2px;
+  width: 65.5px;
+  background-color: var(--color-white);
+  box-shadow: 1px 1px 8px rgba(0, 0, 0, 0.15);
+  display: none;
+  z-index: 1;
+}
+.starIcon5 {
+  height: 16.8px;
+  width: 18.7px;
+  z-index: 2;
+}
+.div4 {
+  align-self: stretch;
+  flex: 1;
+  position: relative;
+  font-weight: 500;
+  flex-shrink: 0;
+  z-index: 1;
+  margin-left: -4px;
+}
+.rating5 {
+  height: 28px;
+  width: 66px;
+  margin: 0 !important;
+  position: absolute;
+  bottom: -14.2px;
+  left: calc(50% - 32.5px);
+  border-radius: var(--br-xl);
+  background-color: var(--color-white);
+  box-shadow: 1px 1px 8px rgba(0, 0, 0, 0.15);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-9xs) var(--padding-4xs) var(--padding-8xs)
+    var(--padding-sm);
+  box-sizing: border-box;
+  z-index: 2;
+}
+.andreaw5,
+.maskGroupParent2 {
+  position: relative;
+  flex-shrink: 0;
+}
+.maskGroupParent2 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  min-width: 163px;
+}
+.andreaw5 {
+  width: 142.3px;
+  height: 20.5px;
+  display: inline-block;
+  z-index: 1;
+}
+.englishHindi2,
+.footballCricket {
+  align-self: stretch;
+  position: relative;
+  z-index: 1;
+}
+.footballCricket {
+  height: 20.5px;
+  display: inline-block;
+  flex-shrink: 0;
+}
+.englishHindi2 {
+  flex: 1;
+}
+.athletesAcademyIcon {
+  height: 11px;
+  width: 8px;
+  position: relative;
+  z-index: 1;
+}
+.frameBoxing,
+.min1 {
+  align-self: stretch;
+  flex: 1;
+}
+.min1 {
+  position: relative;
+  z-index: 1;
+}
+.frameBoxing {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: flex-start;
+  gap: var(--gap-10xs);
+}
+.englishHindiParent,
+.sEEMOREVipul {
+  flex: 1;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.sEEMOREVipul {
+  width: 75px;
+  flex-direction: row;
+  padding: 0 var(--padding-8xs);
+  box-sizing: border-box;
+  font-size: var(--font-size-smi);
+  color: var(--color-darkorange-200);
+  font-family: var(--font-roboto);
+}
+.englishHindiParent {
+  align-self: stretch;
+  flex-direction: column;
+  gap: var(--gap-6xs);
+  color: var(--color-gray-800);
+}
+.footballCricketParent {
+  flex-direction: column;
+  gap: var(--gap-10xs);
+  font-size: var(--reg-size);
+}
+.andreawParent1,
+.footballCricketParent,
+.frameWrapper2 {
+  align-self: stretch;
+  flex: 1;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.andreawParent1 {
+  flex-direction: column;
+  gap: var(--gap-6xs);
+}
+.frameWrapper2 {
+  flex-direction: row;
+  padding: 0 var(--padding-lgi) 0 var(--padding-sm);
+}
+.connectChild7 {
+  height: 32.6px;
+  width: 88.4px;
+  position: relative;
+  border-radius: var(--br-6xl);
+  border: 2px solid var(--color-green-100);
+  box-sizing: border-box;
+  display: none;
+}
+.callNow5 {
+  align-self: stretch;
+  flex: 1;
+  position: relative;
+  font-weight: 500;
+  z-index: 1;
+}
+.connect10,
+.connectChild8 {
+  border-radius: var(--br-6xl);
+}
+.connect10 {
+  align-self: stretch;
+  flex: 0.8295;
+  border: 2px solid var(--color-green-100);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-5xs) var(--padding-xs) var(--padding-6xs)
+    var(--padding-sm);
+  z-index: 1;
+}
+.connectChild8 {
+  height: 32.6px;
+  width: 88.4px;
+  position: relative;
+  border: 2px solid var(--color-darkorange-200);
+  box-sizing: border-box;
+  display: none;
+}
+.chatNow5 {
+  align-self: stretch;
+  width: 67.9px;
+  position: relative;
+  font-weight: 500;
+  display: inline-block;
+  flex-shrink: 0;
+  z-index: 1;
+}
+.connect11,
+.connectParent2 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+}
+.connect11 {
+  flex: 1;
+  border-radius: var(--br-6xl);
+  border: 2px solid var(--color-darkorange-200);
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-5xs) var(--padding-6xs) var(--padding-6xs);
+  z-index: 1;
+  text-align: center;
+}
+.connectParent2 {
+  height: 33px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-4xs);
+  font-size: var(--font-size-mini);
+  font-family: var(--font-roboto);
+}
+.frameParent4,
+.vivekCardInner3 {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.frameParent4 {
+  align-self: stretch;
+  height: 151px;
+  align-items: center;
+  gap: var(--gap-xl);
+}
+.vivekCardInner3 {
+  flex: 1;
+  align-items: flex-start;
+  padding: var(--padding-9xs) 0 0;
+  box-sizing: border-box;
+  min-width: 121px;
+  flex-shrink: 0;
+  text-align: left;
+  color: var(--color-black);
+  font-family: var(--font-raleway);
+}
+.privacyPolicyTermsOfUse,
+.vivekCard5 {
+  display: flex;
+  flex-direction: row;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.vivekCard5 {
+  width: 397px;
+  border-radius: var(--br-3xs);
+  background-color: var(--color-lightgray-100);
+  box-shadow: 0 1px 10px rgba(0, 0, 0, 0.15);
+  border: 2px solid var(--border);
+  align-items: center;
+  justify-content: flex-start;
+  padding: var(--padding-5xl) var(--padding-lgi) var(--padding-16xl)
+    var(--padding-2xl);
+  gap: var(--gap-5xs);
+}
+.privacyPolicyTermsOfUse {
+  align-self: stretch;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 0 0 var(--padding-9xs);
+  gap: 31px 26.05px;
+  min-height: 477px;
+  font-size: var(--semi-bold-size);
+  color: var(--color-gray-400);
+  font-family: var(--reg);
+}
+.frameChild1 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: var(--br-42xl);
+  background-color: var(--color-deepskyblue-200);
+  width: 100%;
+  height: 100%;
+  display: none;
+}
+.accurateAdvice,
+.genuineCoaches,
+.valueForMoney {
+  margin: 0;
+  position: absolute;
+  top: 38px;
+  left: 95px;
+  font-size: inherit;
+  font-weight: 400;
+  font-family: inherit;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 337px;
+  height: 33px;
+  z-index: 1;
+}
+.accurateAdvice,
+.valueForMoney {
+  left: 434px;
+}
+.valueForMoney {
+  left: 771px;
+  z-index: 2;
+}
+.frameChild2,
+.lineIcon {
+  position: absolute;
+  top: 21px;
+  left: 434px;
+  width: 0;
+  height: 68px;
+  object-fit: contain;
+  z-index: 2;
+}
+.frameChild2 {
+  left: 771px;
+  z-index: 3;
+}
+.groupDiv {
+  height: 109px;
+  flex: 1;
+  position: relative;
+  border-radius: var(--br-42xl);
+  background-color: var(--color-deepskyblue-200);
+  max-width: 100%;
+}
+.footballAndCricketInner {
+  align-self: stretch;
+  flex-direction: row;
+  padding: 0 0 var(--padding-9xs);
+  box-sizing: border-box;
+}
+.footballAndCricket,
+.footballAndCricketInner,
+.frameGroup {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.footballAndCricket {
+  flex: 1;
+  flex-direction: column;
+  gap: var(--gap-3xl);
+}
+.frameGroup {
+  width: 1280px;
+  flex-direction: row;
+  padding: 0 var(--padding-xl) 0 0;
+  box-sizing: border-box;
+  flex-shrink: 0;
+}
+.maskGroupIcon6 {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  margin: 0 !important;
+  top: 0;
+  right: -0.5px;
+  bottom: 0;
+  left: 0.5px;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.comprehensiveSportCoverage,
+.experiencedMentorsConnect,
+.flexibleSchedulingWe,
+.personalizedCoachingOur,
+.seamlessChatPlatform {
+  margin-bottom: 0;
+}
+.personalizedCoachingOurPla {
+  margin: 0;
+  font-family: inherit;
+  font-size: inherit;
+  padding-left: var(--padding-13xl);
+}
+.blankLine,
+.joinAthletesAcademy {
+  margin: 0;
+}
+.personalizedCoachingOurContainer1 {
+  width: 100%;
+}
+.personalizedCoachingOurContainer {
+  margin: 0;
+  height: 540px;
+  width: 1398px;
+  position: relative;
+  font-size: inherit;
+  line-height: 128%;
+  font-weight: 500;
+  font-family: inherit;
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+  max-width: 100%;
+  z-index: 1;
+}
+.maskGroupParent3 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  position: relative;
+  text-align: justify;
+  font-size: var(--font-size-5xl);
+  color: var(--color-black);
+  font-family: var(--font-raleway);
+}
+.groupParentAthleteSports,
+.maskGroupParent3,
+.parentGroup {
+  align-items: center;
+  max-width: 100%;
+  flex-shrink: 0;
+}
+.parentGroup {
+  width: 1488px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: 0 var(--padding-xl) var(--padding-15xl);
+  box-sizing: border-box;
+  gap: var(--gap-14xl);
+  text-align: center;
+  font-size: var(--font-size-21xl);
+  color: var(--color-white);
+  font-family: var(--font-roboto);
+}
+.groupParentAthleteSports {
+  width: 1917px;
+  gap: var(--gap-55xl);
+}
+.childFrames,
+.coach,
+.groupParentAthleteSports {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.childFrames {
+  height: 966px;
+  overflow: auto;
+  flex-shrink: 0;
+  align-items: center;
+  padding: var(--padding-23xl) var(--padding-10xs) 0 0;
+  box-sizing: border-box;
+  gap: var(--gap-2xl);
+  max-width: 100%;
+  text-align: left;
+  font-size: var(--font-size-5xl);
+  color: var(--color-white);
+  font-family: var(--font-raleway);
+}
+.coach {
+  width: 100%;
+  position: relative;
+  border-radius: var(--br-xl);
+  background-color: var(--color-white);
+  overflow: hidden;
+  align-items: flex-start;
+  letter-spacing: normal;
+}
+@media screen and (max-width: 1350px) {
+  .groupParentAthleteSports {
+    gap: var(--gap-55xl);
+  }
+  .childFrames {
+    padding-top: var(--padding-xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 900px) {
+  .athleteFrame {
+    flex-wrap: wrap;
+  }
+  .payRs100 {
+    font-size: var(--font-size-13xl);
+  }
+  .boxing {
+    min-width: 100%;
+  }
+  .recharge {
+    font-size: var(--font-size-10xl);
+  }
+  .accurateAdvice,
+  .genuineCoaches,
+  .valueForMoney {
+    font-size: var(--font-size-13xl);
+  }
+  .parentGroup {
+    gap: var(--gap-14xl);
+  }
+  .groupParentAthleteSports {
+    gap: var(--gap-55xl);
+  }
+  .childFrames {
+    height: auto;
+  }
+}
+@media screen and (max-width: 450px) {
+  .coaches,
+  .football {
+    font-size: var(--font-size-lgi);
+  }
+  .rectangleGroup {
+    flex: 1;
+  }
+  .counselingFrame {
+    flex-wrap: wrap;
+  }
+  .payRs100 {
+    font-size: var(--font-size-5xl);
+  }
+  .recharge {
+    font-size: var(--font-size-3xl);
+  }
+  .frameGroup1,
+  .maskGroupIcon {
+    flex: 1;
+  }
+  .vivekCard {
+    flex-wrap: wrap;
+  }
+  .maskGroupIcon1,
+  .maskGroupParent,
+  .vivekCardInner {
+    flex: 1;
+  }
+  .vivekCard1 {
+    flex-wrap: wrap;
+  }
+  .maskGroupGroup,
+  .maskGroupIcon2 {
+    flex: 1;
+  }
+  .vivekCard2 {
+    flex-wrap: wrap;
+  }
+  .maskGroupContainer,
+  .maskGroupIcon3 {
+    flex: 1;
+  }
+  .vivekCard3 {
+    flex-wrap: wrap;
+  }
+  .maskGroupIcon4,
+  .maskGroupParent1 {
+    flex: 1;
+  }
+  .vivekCard4 {
+    flex-wrap: wrap;
+  }
+  .maskGroupIcon5,
+  .maskGroupParent2 {
+    flex: 1;
+  }
+  .vivekCard5 {
+    flex-wrap: wrap;
+  }
+  .accurateAdvice,
+  .genuineCoaches,
+  .valueForMoney {
+    font-size: var(--font-size-5xl);
+  }
+  .personalizedCoachingOurContainer {
+    font-size: var(--font-size-lgi);
+    line-height: 25px;
+  }
+}

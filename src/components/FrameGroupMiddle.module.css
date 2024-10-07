@@ -1,0 +1,779 @@
+.frameGroupMiddleChild {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  margin: 0 !important;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.close {
+  position: relative;
+  font-size: var(--font-size-xl);
+  font-family: var(--font-roboto);
+  color: var(--blue-font-color);
+  text-align: left;
+  z-index: 1;
+}
+.materialSymbolscloseIcon {
+  height: 24px;
+  width: 24px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  min-height: 24px;
+  z-index: 1;
+}
+.alreadyHaveAccountText,
+.signinText {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+.signinText {
+  justify-content: flex-start;
+  gap: var(--gap-xs);
+}
+.alreadyHaveAccountText {
+  width: 531px;
+  justify-content: flex-end;
+  padding: 0 0 var(--padding-7xs);
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.instanceChild {
+  position: absolute;
+  width: 100%;
+  top: 97.56%;
+  right: 0;
+  left: 0;
+  max-width: 100%;
+  overflow: hidden;
+  height: 0;
+  display: none;
+}
+.password {
+  position: absolute;
+  height: 84%;
+  width: 92.61%;
+  top: 4%;
+  left: 0;
+  font-size: var(--font-size-lg);
+  font-weight: 500;
+  font-family: var(--font-roboto);
+  color: var(--gray-font-color);
+  white-space: pre-wrap;
+  text-align: left;
+  display: inline-block;
+}
+.icon,
+.passwordParent {
+  position: absolute;
+  top: 0;
+  display: none;
+}
+.icon {
+  height: 100%;
+  width: 5.13%;
+  right: 0;
+  bottom: 0;
+  left: 94.87%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.passwordParent {
+  left: 0;
+  width: 487px;
+  height: 25px;
+}
+.vectorParent {
+  width: 98px;
+  height: 41px;
+  position: relative;
+  display: none;
+  z-index: 2;
+}
+.alreadyHaveAn,
+.createAnAccount,
+.signIn {
+  position: relative;
+  font-family: var(--font-roboto);
+  text-align: left;
+  white-space: nowrap;
+  z-index: 1;
+}
+.createAnAccount {
+  margin: 0;
+  font-size: var(--font-size-21xl);
+  line-height: 48px;
+  text-transform: uppercase;
+  font-weight: 700;
+  color: var(--blue-font-color);
+}
+.alreadyHaveAn,
+.signIn {
+  font-size: var(--font-size-xl);
+  color: var(--gray-font-color);
+}
+.signIn {
+  color: var(--orange-bg-font-color);
+}
+.signinText1 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-5xs);
+}
+.createAccountText,
+.frameGroupPassword {
+  display: flex;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.createAccountText {
+  flex-direction: column;
+  align-items: center;
+  gap: var(--gap-xl);
+}
+.frameGroupPassword {
+  width: 451px;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0 0 var(--padding-6xs) 0;
+  box-sizing: border-box;
+}
+.fullName,
+.fullNameField {
+  position: relative;
+  z-index: 1;
+}
+.fullName {
+  font-size: var(--font-size-lg);
+  font-weight: 500;
+  font-family: var(--font-roboto);
+  color: var(--color-dimgray-200);
+  text-align: left;
+}
+.fullNameField {
+  align-self: stretch;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.groupFrame {
+  align-self: stretch;
+  height: 39px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-lg);
+}
+.password1 {
+  flex: 1;
+  position: relative;
+  font-size: var(--font-size-lg);
+  font-weight: 500;
+  font-family: var(--font-roboto);
+  color: var(--gray-font-color);
+  text-align: left;
+  display: inline-block;
+  max-width: calc(100% - 36px);
+}
+.icon1 {
+  height: 25px;
+  width: 25px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.passwordContainerIcon,
+.passwordInput {
+  align-self: stretch;
+  max-width: 100%;
+  flex-shrink: 0;
+}
+.passwordInput {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-2xs);
+}
+.passwordContainerIcon {
+  position: relative;
+  overflow: hidden;
+  max-height: 100%;
+}
+.passwordInputParent {
+  align-self: stretch;
+  height: 41px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 0 var(--padding-12xs);
+  box-sizing: border-box;
+  gap: var(--gap-mini);
+  max-width: 100%;
+  z-index: 1;
+}
+.password2 {
+  flex: 1;
+  position: relative;
+  font-size: var(--font-size-lg);
+  font-weight: 500;
+  font-family: var(--font-roboto);
+  color: var(--gray-font-color);
+  text-align: left;
+  display: inline-block;
+  max-width: calc(100% - 36px);
+}
+.icon2 {
+  height: 25px;
+  width: 25px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.passwordGroup {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-2xs);
+  flex-shrink: 0;
+}
+.frameParent,
+.instanceItem,
+.passwordGroup {
+  align-self: stretch;
+  max-width: 100%;
+}
+.instanceItem {
+  position: relative;
+  overflow: hidden;
+  max-height: 100%;
+  flex-shrink: 0;
+}
+.frameParent {
+  height: 41px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 0 var(--padding-12xs);
+  box-sizing: border-box;
+  gap: var(--gap-mini);
+  z-index: 1;
+}
+.password3 {
+  flex: 1;
+  position: relative;
+  font-size: var(--font-size-lg);
+  font-weight: 500;
+  font-family: var(--font-roboto);
+  color: var(--gray-font-color);
+  text-align: left;
+  display: inline-block;
+  max-width: 100%;
+}
+.icon3 {
+  height: 25px;
+  width: 25px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  display: none;
+}
+.passwordContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: var(--padding-12xs) var(--padding-17xl) var(--padding-10xs) 0;
+  box-sizing: border-box;
+  gap: var(--gap-346xl);
+  flex-shrink: 0;
+}
+.frameGroup,
+.instanceInner,
+.passwordContainer {
+  align-self: stretch;
+  max-width: 100%;
+}
+.instanceInner {
+  position: relative;
+  overflow: hidden;
+  max-height: 100%;
+  flex-shrink: 0;
+}
+.frameGroup {
+  height: 41px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 0 var(--padding-12xs);
+  box-sizing: border-box;
+  gap: var(--gap-mini);
+  z-index: 1;
+}
+.textLabelFrame {
+  width: 30px;
+  height: 20px;
+  position: relative;
+  border-radius: var(--br-8xs);
+  object-fit: cover;
+}
+.passwordFrameGroup {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-6xs) 0 0;
+}
+.athleteOrCoach {
+  position: relative;
+  font-size: var(--font-size-lg);
+  font-weight: 500;
+  font-family: var(--font-roboto);
+  color: var(--gray-font-color);
+  text-align: left;
+  white-space: nowrap;
+}
+.arrowDownIcon {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 0 var(--padding-10xs);
+}
+.materialSymbolskeyboardArroIcon {
+  height: 30px;
+  width: 30px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.checkboxRectangle {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+}
+.orFrameGroup {
+  align-self: stretch;
+  height: 1px;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.component7 {
+  height: 43px;
+  width: 98px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 0 var(--padding-12xs);
+  box-sizing: border-box;
+  gap: var(--gap-xs);
+  z-index: 1;
+}
+.password4 {
+  flex: 1;
+  position: relative;
+  font-size: var(--font-size-lg);
+  font-weight: 500;
+  font-family: var(--font-roboto);
+  color: var(--gray-font-color);
+  text-align: left;
+  display: inline-block;
+  max-width: 100%;
+}
+.icon4 {
+  height: 25px;
+  width: 25px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  display: none;
+}
+.signupVectorFrame {
+  width: 487px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: var(--padding-12xs) var(--padding-17xl) var(--padding-10xs) 0;
+  box-sizing: border-box;
+  gap: var(--gap-346xl);
+  max-width: 132%;
+  flex-shrink: 0;
+}
+.inputFormGroup,
+.passwordInputInstance {
+  align-self: stretch;
+  max-width: 100%;
+  flex-shrink: 0;
+}
+.passwordInputInstance {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0;
+  box-sizing: border-box;
+}
+.inputFormGroup {
+  position: relative;
+  overflow: hidden;
+  max-height: 100%;
+}
+.componentInstance1,
+.passwordInputInstanceParent {
+  display: flex;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.passwordInputInstanceParent {
+  height: 41px;
+  flex: 1;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0 0 var(--padding-12xs);
+  box-sizing: border-box;
+  gap: var(--gap-mini);
+  min-width: 240px;
+  z-index: 1;
+}
+.componentInstance1 {
+  align-self: stretch;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: flex-end;
+  gap: var(--gap-xl);
+}
+.componentInstance,
+.vectorArrowDown {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.vectorArrowDown {
+  width: 487px;
+  flex-direction: column;
+  gap: var(--gap-9xl);
+}
+.componentInstance {
+  width: 531px;
+  flex-direction: row;
+  padding: 0 0 var(--padding-10xs) 0;
+  box-sizing: border-box;
+}
+.signUpChild {
+  height: 29px;
+  width: 104px;
+  position: relative;
+  border-radius: var(--br-base);
+  background-color: var(--color-gray-500);
+  display: none;
+}
+.athlete,
+.signUpText {
+  position: relative;
+  z-index: 1;
+}
+.signUpText {
+  height: 16px;
+  width: 12px;
+}
+.athlete {
+  flex: 1;
+  font-size: var(--font-size-mini);
+  font-family: var(--reg);
+  color: var(--color-gray-900);
+  text-align: center;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.signUp,
+.signUpItem {
+  border-radius: var(--br-base);
+  background-color: var(--color-gray-500);
+}
+.signUp {
+  width: 104px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: var(--padding-7xs) var(--padding-mini) var(--padding-8xs)
+    var(--padding-base);
+  box-sizing: border-box;
+  gap: var(--gap-6xs);
+  z-index: 2;
+}
+.signUpItem {
+  height: 29px;
+  width: 118px;
+  position: relative;
+  display: none;
+}
+.coach,
+.vectorIcon {
+  position: relative;
+  z-index: 1;
+}
+.vectorIcon {
+  height: 16px;
+  width: 11.7px;
+}
+.coach {
+  flex: 1;
+  font-size: var(--font-size-mini);
+  font-family: var(--reg);
+  color: var(--color-gray-900);
+  text-align: center;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.signUp1 {
+  width: 118px;
+  border-radius: var(--br-base);
+  background-color: var(--color-gray-500);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: var(--padding-4xs) var(--padding-xl) var(--padding-11xs)
+    var(--padding-lg);
+  box-sizing: border-box;
+  white-space: nowrap;
+  z-index: 1;
+}
+.signUpButton,
+.welcomeFrame {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.welcomeFrame {
+  flex: 1;
+  justify-content: space-between;
+  min-height: 30px;
+  gap: var(--gap-xl);
+}
+.signUpButton {
+  width: 435px;
+  justify-content: flex-start;
+  padding: 0 0 0 var(--padding-smi);
+  box-sizing: border-box;
+}
+.checkbox {
+  height: 24px;
+  width: 24px;
+  position: relative;
+  border-radius: var(--br-8xs);
+  background-color: var(--color-whitesmoke-100);
+  border: 1px solid var(--gray-font-color);
+  box-sizing: border-box;
+}
+.iHaveRead {
+  font-weight: 500;
+  font-family: var(--font-roboto);
+  color: var(--gray-font-color);
+}
+.span,
+.termsOfService {
+  font-family: var(--font-roboto);
+  color: var(--orange-bg-font-color);
+}
+.span {
+  font-weight: 500;
+  color: var(--gray-font-color);
+}
+.iHaveReadAndAgreeToFixmy {
+  margin: 0;
+}
+.and,
+.privacyPolicy,
+.span1 {
+  font-family: var(--font-roboto);
+}
+.and {
+  font-weight: 500;
+  color: var(--gray-font-color);
+}
+.privacyPolicy,
+.span1 {
+  color: var(--orange-bg-font-color);
+}
+.span1 {
+  font-weight: 500;
+  color: var(--gray-font-color);
+}
+.andPrivacyPolicy {
+  margin: 0;
+}
+.password5 {
+  position: relative;
+  font-size: var(--semi-bold-size);
+  text-align: left;
+}
+.checkBox {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-xl);
+  max-width: 100%;
+  z-index: 1;
+}
+.frameChild {
+  height: 50px;
+  width: 487px;
+  position: relative;
+  border-radius: var(--br-31xl);
+  background-color: var(--blue-font-color);
+  display: none;
+  max-width: 100%;
+}
+.register {
+  position: relative;
+  font-size: var(--font-size-xl);
+  font-family: var(--font-roboto);
+  color: var(--color-white);
+  text-align: left;
+  z-index: 1;
+}
+.rectangleParent {
+  align-self: stretch;
+  border-radius: var(--br-31xl);
+  background-color: var(--blue-font-color);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-smi) var(--padding-xl) var(--padding-sm)
+    var(--padding-3xl);
+  box-sizing: border-box;
+  max-width: 100%;
+  z-index: 1;
+}
+.checkboxFrame,
+.orFrame,
+.orGroup {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.orFrame {
+  width: 487px;
+  flex-direction: column;
+  gap: var(--gap-21xl);
+}
+.checkboxFrame,
+.orGroup {
+  width: 531px;
+  flex-direction: row;
+  padding: 0 0 var(--padding-mid) 0;
+  box-sizing: border-box;
+}
+.orGroup {
+  width: 323px;
+  padding: 0 0 var(--padding-3xl) 0;
+}
+.welcomeToAta {
+  position: relative;
+  font-size: var(--semi-bold-size);
+  text-transform: uppercase;
+  font-family: var(--font-roboto);
+  color: var(--gray-font-color);
+  text-align: left;
+  z-index: 1;
+}
+.frameGroupMiddle,
+.rectangle {
+  width: 207px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.frameGroupMiddle {
+  margin: 0;
+  width: 735px;
+  flex-direction: column;
+  align-items: center;
+  padding: var(--padding-41xl) var(--padding-xl) var(--padding-41xl)
+    var(--padding-45xl);
+  box-sizing: border-box;
+  position: relative;
+  gap: var(--gap-34xl);
+  max-width: calc(100% - 1935px);
+}
+@media screen and (max-width: 2125px) {
+  .frameGroupMiddle {
+    display: none;
+    max-width: calc(100% - 1280px);
+  }
+}
+@media screen and (max-width: 1575px) {
+  .frameGroupMiddle {
+    display: none;
+  }
+}
+@media screen and (max-width: 1025px) {
+  .createAnAccount {
+    font-size: var(--font-size-13xl);
+    line-height: 38px;
+  }
+  .passwordContainer,
+  .signupVectorFrame {
+    gap: var(--gap-346xl);
+  }
+  .orFrame {
+    gap: var(--gap-21xl);
+  }
+  .frameGroupMiddle {
+    display: none;
+    gap: var(--gap-34xl);
+    padding-left: var(--padding-13xl);
+    padding-top: var(--padding-6xl);
+    padding-bottom: var(--padding-6xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .close {
+    font-size: var(--semi-bold-size);
+  }
+  .createAnAccount {
+    font-size: var(--font-size-5xl);
+    line-height: 29px;
+  }
+  .signinText1 {
+    display: none;
+  }
+  .welcomeFrame {
+    flex-wrap: wrap;
+  }
+  .register {
+    font-size: var(--semi-bold-size);
+  }
+  .frameGroupMiddle {
+    display: none;
+  }
+}

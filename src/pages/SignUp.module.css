@@ -1,0 +1,135 @@
+.ataFlat1 {
+  height: 52px;
+  width: 230px;
+  position: relative;
+  object-fit: cover;
+}
+.aTAFlatRectangle {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-11xl);
+}
+.frameInputsChild {
+  align-self: stretch;
+  flex: 1;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.frameInputs,
+.frameSignup {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  box-sizing: border-box;
+}
+.frameInputs {
+  width: 501px;
+  flex: 1;
+  padding: 0 var(--padding-xl) 0 0;
+  gap: var(--gap-183xl);
+  max-width: 100%;
+}
+.frameSignup {
+  height: 606px;
+  width: 539px;
+  padding: var(--padding-42xl) 0 0;
+  max-width: calc(100% - 2131px);
+}
+.fix {
+  font-weight: 900;
+}
+.mybuild {
+  color: var(--blue-font-color);
+}
+.fixmybuild {
+  height: 42px;
+  width: 157px;
+  display: none;
+  flex-shrink: 0;
+}
+.fixmybuild,
+.frame,
+.signUp1 {
+  position: relative;
+}
+.frame {
+  height: 68px;
+  width: 1164px;
+  background-color: var(--color-gray-700);
+  box-shadow: 41.1px -41.1px 41.07px rgba(26, 21, 39, 0.1) inset,
+    -41.1px 41.1px 41.07px rgba(255, 255, 255, 0.1) inset;
+  backdrop-filter: blur(82.13px);
+  max-width: calc(100% - 1506px);
+}
+.signUp1 {
+  width: 100%;
+  border-radius: var(--br-31xl);
+  background-color: var(--color-white);
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 0 0 var(--padding-31xl);
+  box-sizing: border-box;
+  gap: var(--gap-97xl);
+  letter-spacing: normal;
+  text-align: left;
+  font-size: var(--font-size-17xl);
+  color: var(--color-darkorange-100);
+  font-family: var(--font-roboto);
+}
+@media screen and (max-width: 2125px) {
+  .frameSignup {
+    display: none;
+    max-width: calc(100% - 1280px);
+  }
+  .frame {
+    max-width: 100%;
+  }
+}
+@media screen and (max-width: 1575px) {
+  .frameSignup {
+    max-width: calc(100% - 1280px);
+  }
+  .signUp1 {
+    padding-left: var(--padding-6xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 1025px) {
+  .frameInputs {
+    gap: var(--gap-183xl);
+  }
+  .frameSignup {
+    padding-top: var(--padding-21xl);
+    box-sizing: border-box;
+    max-width: calc(100% - 1280px);
+  }
+  .fixmybuild {
+    font-size: var(--font-size-10xl);
+  }
+  .signUp1 {
+    gap: var(--gap-97xl);
+  }
+}
+@media screen and (max-width: 450px) {
+  .frameInputs {
+    gap: var(--gap-183xl);
+  }
+  .frameSignup {
+    max-width: calc(100% - 1280px);
+  }
+  .fixmybuild {
+    font-size: var(--font-size-3xl);
+  }
+  .signUp1 {
+    gap: var(--gap-97xl);
+  }
+}

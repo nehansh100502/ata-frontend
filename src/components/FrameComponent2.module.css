@@ -1,0 +1,69 @@
+.englishTelegu,
+.football {
+  position: relative;
+  z-index: 1;
+}
+.football {
+  height: 20px;
+  display: inline-block;
+  flex-shrink: 0;
+}
+.englishTelegu {
+  align-self: stretch;
+  flex: 1;
+}
+.frameChild {
+  height: 11px;
+  width: 8px;
+}
+.frameChild,
+.min {
+  position: relative;
+  z-index: 1;
+}
+.contactUsFrame,
+.vectorParent {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.vectorParent {
+  align-items: flex-end;
+  gap: var(--gap-10xs);
+}
+.contactUsFrame {
+  align-items: flex-start;
+  padding: 0 var(--padding-8xs);
+  font-size: var(--font-size-smi);
+  color: var(--color-darkorange-200);
+  font-family: var(--font-roboto);
+}
+.englishTeleguParent {
+  align-self: stretch;
+  flex-direction: column;
+  gap: var(--gap-6xs);
+  color: var(--color-gray-800);
+}
+.englishTeleguParent,
+.footballParent,
+.frameWrapper {
+  flex: 1;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.footballParent {
+  align-self: stretch;
+  flex-direction: column;
+  gap: var(--gap-10xs);
+}
+.frameWrapper {
+  width: 181px;
+  flex-direction: row;
+  padding: 0 var(--padding-sm) var(--padding-smi);
+  box-sizing: border-box;
+  text-align: left;
+  font-size: var(--reg-size);
+  color: var(--color-black);
+  font-family: var(--font-raleway);
+}

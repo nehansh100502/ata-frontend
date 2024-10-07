@@ -1,0 +1,329 @@
+.landingPage1Child,
+.landingPage1Item {
+  height: 1080px;
+  width: 1920px;
+  position: relative;
+  background-color: var(--color-steelblue-300);
+  display: none;
+  max-width: 100%;
+}
+.landingPage1Item {
+  height: 93px;
+  background-color: var(--color-white);
+}
+.cardCircleGroup {
+  position: absolute;
+  top: 221px;
+  left: 1078px;
+  width: 3136.8px;
+  height: 3135.4px;
+  object-fit: contain;
+}
+.frameChild {
+  height: 133px;
+  width: 1109px;
+  position: relative;
+  border-radius: var(--br-2xl);
+  background-color: var(--color-gainsboro-500);
+  backdrop-filter: blur(26px);
+  border: 4px solid var(--border);
+  box-sizing: border-box;
+  display: none;
+  max-width: 100%;
+}
+.atAthletesAcademy,
+.welcomeToAthletes {
+  margin: 0;
+}
+.welcomeToAthletesContainer {
+  height: 95px;
+  flex: 1;
+  position: relative;
+  display: inline-block;
+  max-width: 100%;
+  z-index: 1;
+}
+.rectangleParent {
+  position: absolute;
+  top: 0;
+  left: 450px;
+  border-radius: var(--br-2xl);
+  background-color: var(--color-gainsboro-500);
+  backdrop-filter: blur(26px);
+  border: 4px solid var(--border);
+  box-sizing: border-box;
+  width: 1109px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: var(--padding-base) var(--padding-48xl) var(--padding-3xl)
+    var(--padding-42xl);
+  max-width: 100%;
+  z-index: 3;
+}
+.academy,
+.athletes {
+  position: relative;
+  display: inline-block;
+}
+.athletes {
+  margin: 0;
+  align-self: stretch;
+  height: 53px;
+  font-size: inherit;
+  font-weight: 700;
+  font-family: inherit;
+  flex-shrink: 0;
+  z-index: 4;
+}
+.academy {
+  font-size: var(--font-size-3xl);
+  letter-spacing: 0.1em;
+  z-index: 5;
+  margin-top: -26px;
+}
+.athletesFrame,
+.athletesText {
+  width: 138px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.athletesFrame {
+  width: 200px;
+  padding: var(--padding-16xl) 0 0;
+  box-sizing: border-box;
+  font-size: var(--font-size-9xl);
+  color: var(--color-gray-600);
+  font-family: var(--font-poppins);
+}
+.whatsappImage20240119At1 {
+  position: absolute;
+  top: 1086px;
+  left: 42px;
+  width: 1922px;
+  height: 1084px;
+  object-fit: cover;
+  z-index: 1;
+}
+.frameInner,
+.frameItem {
+  position: absolute;
+  top: 1086px;
+  left: 0;
+  background: linear-gradient(180.94deg, rgba(6, 6, 6, 0.5), transparent);
+  filter: blur(18.2px);
+  width: 2004px;
+  height: -2px;
+}
+.frameInner {
+  z-index: 1;
+}
+.imageFrameChild,
+.rectangleGroup {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 2004px;
+  height: 1084px;
+  z-index: 2;
+}
+.imageFrameChild {
+  top: 1067px;
+  background: linear-gradient(180deg, #fff, rgba(255, 255, 255, 0));
+  filter: blur(18.2px);
+  height: 133px;
+  z-index: 3;
+}
+.iconColor1 {
+  position: absolute;
+  top: 1115px;
+  left: 104px;
+  width: 78px;
+  height: 52px;
+  object-fit: cover;
+  z-index: 4;
+}
+.imageFrame {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  margin: 0 !important;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+.lockupWhite1 {
+  align-self: stretch;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+  z-index: 3;
+}
+.home {
+  position: relative;
+  font-weight: 500;
+  text-shadow: 0 4px 4px rgba(0, 0, 0, 0.5);
+  z-index: 4;
+}
+.category {
+  cursor: pointer;
+}
+.blogs,
+.category,
+.wallet {
+  position: relative;
+  font-weight: 500;
+  z-index: 4;
+}
+.search {
+  border: 0;
+  background-color: transparent;
+  width: 184px;
+  font-family: var(--reg);
+  font-size: var(--font-size-smi);
+  color: var(--color-gray-800);
+  white-space: nowrap;
+  z-index: 4;
+}
+.homePageSections,
+.homeParent {
+  width: 607px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+  max-width: 100%;
+}
+.homeParent {
+  width: 850px;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-292xl);
+}
+.costumerLogin {
+  position: relative;
+  font-weight: 500;
+  z-index: 4;
+}
+.signUp {
+  width: 104px;
+  white-space: nowrap;
+  z-index: 4;
+}
+.loginForm {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+}
+.academyTitle,
+.loginParent {
+  width: 286px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-24xl) 0 0;
+  box-sizing: border-box;
+}
+.academyTitle {
+  width: 100%;
+  position: absolute;
+  top: -865px;
+  left: 0;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 1086px 104px var(--padding-2xl) 190px;
+  gap: var(--gap-xl);
+  max-width: 100%;
+  text-align: left;
+  font-size: var(--font-size-lg);
+  color: var(--color-gray-500);
+}
+.cardCircleGroupParent {
+  height: 1301px;
+  width: 2004px;
+  position: relative;
+  max-width: 104%;
+  flex-shrink: 0;
+}
+.landingPage1 {
+  width: 100%;
+  height: 1080px;
+  position: relative;
+  border-radius: var(--br-xl);
+  background-color: var(--color-white);
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: flex-end;
+  letter-spacing: normal;
+  text-align: center;
+  font-size: var(--font-size-xl);
+  color: var(--color-white);
+  font-family: var(--font-raleway);
+}
+@media screen and (max-width: 1275px) {
+  .athletesFrame {
+    display: none;
+  }
+  .imageFrame {
+    max-width: 100%;
+  }
+  .homeParent {
+    display: none;
+  }
+  .academyTitle {
+    padding-left: 95px;
+    padding-right: var(--padding-33xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 1100px) {
+  .homeParent {
+    gap: var(--gap-292xl);
+  }
+}
+@media screen and (max-width: 750px) {
+  .academyTitle {
+    padding-left: 47px;
+    padding-right: var(--padding-7xl);
+    box-sizing: border-box;
+  }
+  .cardCircleGroupParent {
+    height: auto;
+    min-height: 1301;
+  }
+  .landingPage1 {
+    height: auto;
+  }
+}
+@media screen and (max-width: 450px) {
+  .welcomeToAthletesContainer {
+    font-size: var(--semi-bold-size);
+  }
+  .athletes {
+    font-size: var(--font-size-3xl);
+  }
+  .academy {
+    font-size: var(--font-size-lg);
+  }
+  .homeParent {
+    gap: var(--gap-292xl);
+  }
+  .academyTitle {
+    padding-left: var(--padding-xl);
+    box-sizing: border-box;
+  }
+}
